@@ -1,0 +1,17 @@
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Infrastructure\bin\Debug\net8.0\VGameStore.Infrastructure.deps.json
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Infrastructure\bin\Debug\net8.0\VGameStore.Infrastructure.runtimeconfig.json
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Infrastructure\bin\Debug\net8.0\VGameStore.Infrastructure.dll
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Infrastructure\bin\Debug\net8.0\VGameStore.Infrastructure.pdb
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Infrastructure\bin\Debug\net8.0\VGameStore.Core.dll
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Infrastructure\bin\Debug\net8.0\VGameStore.Core.pdb
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Infrastructure\obj\Debug\net8.0\VGameStore.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Infrastructure\obj\Debug\net8.0\VGameStore.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Infrastructure\obj\Debug\net8.0\VGameStore.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Infrastructure\obj\Debug\net8.0\VGameStore.Infrastructure.AssemblyInfo.cs
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Infrastructure\obj\Debug\net8.0\VGameStore.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Infrastructure\obj\Debug\net8.0\VGameSto.999E12A8.Up2Date
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Infrastructure\obj\Debug\net8.0\VGameStore.Infrastructure.dll
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Infrastructure\obj\Debug\net8.0\refint\VGameStore.Infrastructure.dll
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Infrastructure\obj\Debug\net8.0\VGameStore.Infrastructure.pdb
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Infrastructure\obj\Debug\net8.0\VGameStore.Infrastructure.genruntimeconfig.cache
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Infrastructure\obj\Debug\net8.0\ref\VGameStore.Infrastructure.dll

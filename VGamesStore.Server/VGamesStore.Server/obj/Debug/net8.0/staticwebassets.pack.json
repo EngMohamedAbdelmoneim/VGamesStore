@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\9768788e-402b-4783-bc82-7686af6accd6.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\9768788e-402b-4783-bc82-7686af6accd6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\a728894b-23b0-4479-af91-3d1b869bf715.jpg",
+      "PackagePath": "staticwebassets\\images\\a728894b-23b0-4479-af91-3d1b869bf715.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\bd4874fc-dd3f-43a5-a129-cb7385e2d46d.jpg",
+      "PackagePath": "staticwebassets\\images\\bd4874fc-dd3f-43a5-a129-cb7385e2d46d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\d1350fbb-1b73-4919-a0b6-c01d52746d35.jpg",
+      "PackagePath": "staticwebassets\\images\\d1350fbb-1b73-4919-a0b6-c01d52746d35.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\eace16b1-edbf-474c-978b-f59909b9bafe.jpg",
+      "PackagePath": "staticwebassets\\images\\eace16b1-edbf-474c-978b-f59909b9bafe.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.VGamesStore.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.VGamesStore.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.VGamesStore.Api.props",
+      "PackagePath": "build\\VGamesStore.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.VGamesStore.Api.props",
+      "PackagePath": "buildMultiTargeting\\VGamesStore.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.VGamesStore.Api.props",
+      "PackagePath": "buildTransitive\\VGamesStore.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

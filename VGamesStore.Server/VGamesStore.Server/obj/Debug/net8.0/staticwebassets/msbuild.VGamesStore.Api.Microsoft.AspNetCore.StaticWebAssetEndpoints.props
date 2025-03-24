@@ -1,0 +1,64 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/VGamesStore.Api/Files/GameImage/9768788e-402b-4783-bc82-7686af6accd6.2s5v30cqq4.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\GameImage\9768788e-402b-4783-bc82-7686af6accd6.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2s5v30cqq4"},{"Name":"integrity","Value":"sha256-/q2Li6gvnEHHYd28I20u1UoAMFQYdYuryRcU6EmYDkc="},{"Name":"label","Value":"_content/VGamesStore.Api/Files/GameImage/9768788e-402b-4783-bc82-7686af6accd6.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8719"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/q2Li6gvnEHHYd28I20u1UoAMFQYdYuryRcU6EmYDkc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 04:17:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/VGamesStore.Api/Files/GameImage/9768788e-402b-4783-bc82-7686af6accd6.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\GameImage\9768788e-402b-4783-bc82-7686af6accd6.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/q2Li6gvnEHHYd28I20u1UoAMFQYdYuryRcU6EmYDkc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"8719"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/q2Li6gvnEHHYd28I20u1UoAMFQYdYuryRcU6EmYDkc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 04:17:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/VGamesStore.Api/images/a728894b-23b0-4479-af91-3d1b869bf715.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a728894b-23b0-4479-af91-3d1b869bf715.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9wFM9opXSq3xwb4pdTXFdo3ACOh9/LOXhz1rl88sdTc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"49996"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229wFM9opXSq3xwb4pdTXFdo3ACOh9/LOXhz1rl88sdTc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 03:22:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/VGamesStore.Api/images/a728894b-23b0-4479-af91-3d1b869bf715.tz08v6jnij.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a728894b-23b0-4479-af91-3d1b869bf715.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tz08v6jnij"},{"Name":"integrity","Value":"sha256-9wFM9opXSq3xwb4pdTXFdo3ACOh9/LOXhz1rl88sdTc="},{"Name":"label","Value":"_content/VGamesStore.Api/images/a728894b-23b0-4479-af91-3d1b869bf715.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"49996"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229wFM9opXSq3xwb4pdTXFdo3ACOh9/LOXhz1rl88sdTc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 03:22:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/VGamesStore.Api/images/bd4874fc-dd3f-43a5-a129-cb7385e2d46d.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\bd4874fc-dd3f-43a5-a129-cb7385e2d46d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9wFM9opXSq3xwb4pdTXFdo3ACOh9/LOXhz1rl88sdTc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"49996"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229wFM9opXSq3xwb4pdTXFdo3ACOh9/LOXhz1rl88sdTc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 03:26:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/VGamesStore.Api/images/bd4874fc-dd3f-43a5-a129-cb7385e2d46d.tz08v6jnij.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\bd4874fc-dd3f-43a5-a129-cb7385e2d46d.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tz08v6jnij"},{"Name":"integrity","Value":"sha256-9wFM9opXSq3xwb4pdTXFdo3ACOh9/LOXhz1rl88sdTc="},{"Name":"label","Value":"_content/VGamesStore.Api/images/bd4874fc-dd3f-43a5-a129-cb7385e2d46d.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"49996"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229wFM9opXSq3xwb4pdTXFdo3ACOh9/LOXhz1rl88sdTc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 03:26:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/VGamesStore.Api/images/d1350fbb-1b73-4919-a0b6-c01d52746d35.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d1350fbb-1b73-4919-a0b6-c01d52746d35.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9wFM9opXSq3xwb4pdTXFdo3ACOh9/LOXhz1rl88sdTc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"49996"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229wFM9opXSq3xwb4pdTXFdo3ACOh9/LOXhz1rl88sdTc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 03:21:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/VGamesStore.Api/images/d1350fbb-1b73-4919-a0b6-c01d52746d35.tz08v6jnij.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d1350fbb-1b73-4919-a0b6-c01d52746d35.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tz08v6jnij"},{"Name":"integrity","Value":"sha256-9wFM9opXSq3xwb4pdTXFdo3ACOh9/LOXhz1rl88sdTc="},{"Name":"label","Value":"_content/VGamesStore.Api/images/d1350fbb-1b73-4919-a0b6-c01d52746d35.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"49996"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229wFM9opXSq3xwb4pdTXFdo3ACOh9/LOXhz1rl88sdTc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 03:21:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/VGamesStore.Api/images/eace16b1-edbf-474c-978b-f59909b9bafe.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\eace16b1-edbf-474c-978b-f59909b9bafe.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9wFM9opXSq3xwb4pdTXFdo3ACOh9/LOXhz1rl88sdTc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"49996"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229wFM9opXSq3xwb4pdTXFdo3ACOh9/LOXhz1rl88sdTc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 03:22:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/VGamesStore.Api/images/eace16b1-edbf-474c-978b-f59909b9bafe.tz08v6jnij.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\eace16b1-edbf-474c-978b-f59909b9bafe.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tz08v6jnij"},{"Name":"integrity","Value":"sha256-9wFM9opXSq3xwb4pdTXFdo3ACOh9/LOXhz1rl88sdTc="},{"Name":"label","Value":"_content/VGamesStore.Api/images/eace16b1-edbf-474c-978b-f59909b9bafe.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"49996"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00229wFM9opXSq3xwb4pdTXFdo3ACOh9/LOXhz1rl88sdTc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Mar 2025 03:22:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

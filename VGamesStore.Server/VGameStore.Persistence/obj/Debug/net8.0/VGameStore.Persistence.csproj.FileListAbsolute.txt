@@ -1,0 +1,17 @@
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Persistence\obj\Debug\net8.0\VGameStore.Persistence.csproj.AssemblyReference.cache
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Persistence\obj\Debug\net8.0\VGameStore.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Persistence\obj\Debug\net8.0\VGameStore.Persistence.AssemblyInfoInputs.cache
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Persistence\obj\Debug\net8.0\VGameStore.Persistence.AssemblyInfo.cs
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Persistence\obj\Debug\net8.0\VGameStore.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Persistence\bin\Debug\net8.0\VGameStore.Persistence.deps.json
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Persistence\bin\Debug\net8.0\VGameStore.Persistence.runtimeconfig.json
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Persistence\bin\Debug\net8.0\VGameStore.Persistence.dll
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Persistence\bin\Debug\net8.0\VGameStore.Persistence.pdb
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Persistence\bin\Debug\net8.0\VGameStore.Core.dll
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Persistence\bin\Debug\net8.0\VGameStore.Core.pdb
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Persistence\obj\Debug\net8.0\VGameSto.1E358516.Up2Date
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Persistence\obj\Debug\net8.0\VGameStore.Persistence.dll
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Persistence\obj\Debug\net8.0\refint\VGameStore.Persistence.dll
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Persistence\obj\Debug\net8.0\VGameStore.Persistence.pdb
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Persistence\obj\Debug\net8.0\VGameStore.Persistence.genruntimeconfig.cache
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Persistence\obj\Debug\net8.0\ref\VGameStore.Persistence.dll

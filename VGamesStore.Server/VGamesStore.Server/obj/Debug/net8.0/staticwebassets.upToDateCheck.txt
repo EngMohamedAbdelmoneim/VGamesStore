@@ -1,0 +1,5 @@
+wwwroot\Files\GameImage\9768788e-402b-4783-bc82-7686af6accd6.jpg
+wwwroot\images\a728894b-23b0-4479-af91-3d1b869bf715.jpg
+wwwroot\images\bd4874fc-dd3f-43a5-a129-cb7385e2d46d.jpg
+wwwroot\images\d1350fbb-1b73-4919-a0b6-c01d52746d35.jpg
+wwwroot\images\eace16b1-edbf-474c-978b-f59909b9bafe.jpg

@@ -1,0 +1,17 @@
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Application\bin\Debug\net8.0\VGameStore.Application.deps.json
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Application\bin\Debug\net8.0\VGameStore.Application.dll
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Application\bin\Debug\net8.0\VGameStore.Application.pdb
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Application\bin\Debug\net8.0\VGameStore.Core.dll
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Application\bin\Debug\net8.0\VGameStore.Infrastructure.dll
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Application\bin\Debug\net8.0\VGameStore.Core.pdb
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Application\bin\Debug\net8.0\VGameStore.Infrastructure.pdb
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Application\obj\Debug\net8.0\VGameStore.Application.csproj.AssemblyReference.cache
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Application\obj\Debug\net8.0\VGameStore.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Application\obj\Debug\net8.0\VGameStore.Application.AssemblyInfoInputs.cache
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Application\obj\Debug\net8.0\VGameStore.Application.AssemblyInfo.cs
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Application\obj\Debug\net8.0\VGameStore.Application.csproj.CoreCompileInputs.cache
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Application\obj\Debug\net8.0\VGameSto.B707825E.Up2Date
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Application\obj\Debug\net8.0\VGameStore.Application.dll
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Application\obj\Debug\net8.0\refint\VGameStore.Application.dll
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Application\obj\Debug\net8.0\VGameStore.Application.pdb
+C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Application\obj\Debug\net8.0\ref\VGameStore.Application.dll

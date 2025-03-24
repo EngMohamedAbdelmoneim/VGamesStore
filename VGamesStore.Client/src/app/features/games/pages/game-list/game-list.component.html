@@ -1,0 +1,18 @@
+<div class="game-list">
+  <h2>🎮 قائمة الألعاب</h2>
+
+  <!-- عرض رسالة تحميل أثناء جلب البيانات -->
+  <div *ngIf="loading$ | async" class="loading">
+    ⏳ جاري تحميل الألعاب...
+  </div>
+
+  <!-- عرض الألعاب إذا لم يكن هناك تحميل -->
+  <div *ngIf="!(loading$ | async)">
+    <div *ngFor="let game of games$ | async" class="game-card">
+      <img [src]="imagePath(game.imageUrl)" [alt]="game.title" />
+      <h3>{{ game.title }}</h3>
+      <p>{{ game.description }}</p>
+      <span>💰 {{ game.price | currency }}</span>
+    </div>
+  </div>
+</div>

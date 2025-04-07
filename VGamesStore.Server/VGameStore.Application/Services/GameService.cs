@@ -36,10 +36,10 @@ namespace VGameStore.Application.Services
 			return true;
 		}
 
-		public async Task<IEnumerable<GameDto>> GetAllGamesAsync()
+		public async Task<IReadOnlyList<GameDto>> GetAllGamesAsync()
 		{
 			var games = await _gameRepository.GetAllAsync();
-			var mappedGames = _mapper.Map<IEnumerable<GameDto>>(games);
+			var mappedGames = _mapper.Map<IReadOnlyList<GameDto>>(games);
 			return mappedGames;
 		}
 

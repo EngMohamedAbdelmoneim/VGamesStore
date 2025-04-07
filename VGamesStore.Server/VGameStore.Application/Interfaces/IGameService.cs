@@ -10,7 +10,7 @@ namespace VGameStore.Application.Interfaces
 {
     public interface IGameService
     {
-			Task<IEnumerable<GameDto>> GetAllGamesAsync();
+			Task<IReadOnlyList<GameDto>> GetAllGamesAsync();
 			Task<GameDto?> GetGameByIdAsync(int id);
 			Task<GameDto> CreateGameAsync(CreateGameDto game);
 			Task<bool> UpdateGameAsync(int id, UpdateGameDto gameDto);

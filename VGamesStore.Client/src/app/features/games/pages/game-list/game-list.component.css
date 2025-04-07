@@ -1,3 +1,25 @@
+#carouselExampleInterval{
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+#search-bar{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px 0;
+}
+#search-btn{
+  color: #f136aa;
+  border: 2px solid #f136aa;
+}
+
+h2{
+  color: whitesmoke;
+}
 .game-list {
   text-align: center;
 
@@ -28,9 +50,10 @@
       object-fit: cover;
     }
 
-    h3 {
+    h3{
       margin: 10px 0;
       font-size: 18px;
+      color: whitesmoke;
     }
 
     p {

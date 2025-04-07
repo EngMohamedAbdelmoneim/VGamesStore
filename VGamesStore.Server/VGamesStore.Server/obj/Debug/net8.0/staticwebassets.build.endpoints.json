@@ -3,6 +3,88 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
+      "Route": "Files/GameImage/1b1c3994-a34f-4405-9757-67a7a521d442.jpg",
+      "AssetFile": "Files/GameImage/1b1c3994-a34f-4405-9757-67a7a521d442.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ssq5+fX8uYr4cF8zzyw+lz0GOpF+2zy/K3q4IdIvK/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Mar 2025 22:21:25 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ssq5+fX8uYr4cF8zzyw+lz0GOpF+2zy/K3q4IdIvK/M="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/1b1c3994-a34f-4405-9757-67a7a521d442.uw36cwhzn0.jpg",
+      "AssetFile": "Files/GameImage/1b1c3994-a34f-4405-9757-67a7a521d442.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ssq5+fX8uYr4cF8zzyw+lz0GOpF+2zy/K3q4IdIvK/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Mar 2025 22:21:25 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uw36cwhzn0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ssq5+fX8uYr4cF8zzyw+lz0GOpF+2zy/K3q4IdIvK/M="
+        },
+        {
+          "Name": "label",
+          "Value": "Files/GameImage/1b1c3994-a34f-4405-9757-67a7a521d442.jpg"
+        }
+      ]
+    },
+    {
       "Route": "Files/GameImage/9768788e-402b-4783-bc82-7686af6accd6.2s5v30cqq4.jpg",
       "AssetFile": "Files/GameImage/9768788e-402b-4783-bc82-7686af6accd6.jpg",
       "Selectors": [],
@@ -81,6 +163,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-/q2Li6gvnEHHYd28I20u1UoAMFQYdYuryRcU6EmYDkc="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.jpg",
+      "AssetFile": "Files/GameImage/fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ssq5+fX8uYr4cF8zzyw+lz0GOpF+2zy/K3q4IdIvK/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Mar 2025 21:38:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ssq5+fX8uYr4cF8zzyw+lz0GOpF+2zy/K3q4IdIvK/M="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.uw36cwhzn0.jpg",
+      "AssetFile": "Files/GameImage/fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ssq5+fX8uYr4cF8zzyw+lz0GOpF+2zy/K3q4IdIvK/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Mar 2025 21:38:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uw36cwhzn0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ssq5+fX8uYr4cF8zzyw+lz0GOpF+2zy/K3q4IdIvK/M="
+        },
+        {
+          "Name": "label",
+          "Value": "Files/GameImage/fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.jpg"
         }
       ]
     },

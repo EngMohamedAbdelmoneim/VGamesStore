@@ -1,1 +1,4 @@
-<p>game.card works!</p>
+<img [src]="getFormattedPrice(game.imageUrl)" [alt]="game.title" />
+      <h3>{{ game.title }}</h3>
+      <p>{{ game.description }}</p>
+      <span>💰 {{ game.price | currency }}</span>

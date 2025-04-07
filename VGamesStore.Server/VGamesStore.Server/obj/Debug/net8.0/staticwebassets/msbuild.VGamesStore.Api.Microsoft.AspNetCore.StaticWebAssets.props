@@ -1,5 +1,23 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\GameImage\1b1c3994-a34f-4405-9757-67a7a521d442.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>VGamesStore.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/VGamesStore.Api</BasePath>
+      <RelativePath>Files/GameImage/1b1c3994-a34f-4405-9757-67a7a521d442.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uw36cwhzn0</Fingerprint>
+      <Integrity>ssq5+fX8uYr4cF8zzyw+lz0GOpF+2zy/K3q4IdIvK/M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\GameImage\1b1c3994-a34f-4405-9757-67a7a521d442.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\GameImage\9768788e-402b-4783-bc82-7686af6accd6.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>VGamesStore.Api</SourceId>
@@ -17,6 +35,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\GameImage\9768788e-402b-4783-bc82-7686af6accd6.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\GameImage\fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>VGamesStore.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/VGamesStore.Api</BasePath>
+      <RelativePath>Files/GameImage/fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uw36cwhzn0</Fingerprint>
+      <Integrity>ssq5+fX8uYr4cF8zzyw+lz0GOpF+2zy/K3q4IdIvK/M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Files\GameImage\fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a728894b-23b0-4479-af91-3d1b869bf715.jpg'))">
       <SourceType>Package</SourceType>

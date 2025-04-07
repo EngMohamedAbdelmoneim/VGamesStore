@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Venite Adoremus';
+  src: url('assets/fonts/venite-adoremus/VeniteAdoremus-rgRBA.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Venite Adoremus', sans-serif;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+}
+

@@ -11,7 +11,6 @@ namespace VGameStore.Application.Utilities
     {
         public async static Task<string> UploadFile(IFormFile file, string folderName)
         {
-			// Define the storage path (wwwroot/images)
 			string uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Files",folderName);
 			Directory.CreateDirectory(uploadPath); // Ensure directory exists
 
@@ -26,7 +25,7 @@ namespace VGameStore.Application.Utilities
 			}
 
 			// Construct relative image URL
-			string imageUrl = $"/images/{fileName}";
+			string imageUrl = $"/Files/GameImage/{fileName}";
 
 			return imageUrl;
 		}

@@ -15,9 +15,9 @@ builder.Services.AddCors(options =>
 {
 	options.AddPolicy(MyAllowSpecificOrigins, policy =>
 	{
-		policy.WithOrigins("http://localhost:4200") // السماح لطلبات Angular
-			  .AllowAnyMethod()   // السماح بكل الـ HTTP Methods (GET, POST, PUT, DELETE)
-			  .AllowAnyHeader();  // السماح بكل الـ Headers
+		policy.AllowAnyOrigin()
+		 .AllowAnyMethod()
+		 .AllowAnyHeader();  // السماح بكل الـ Headers
 	});
 });
 

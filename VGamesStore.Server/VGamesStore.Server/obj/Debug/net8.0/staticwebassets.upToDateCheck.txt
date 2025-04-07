@@ -1,4 +1,6 @@
+wwwroot\Files\GameImage\1b1c3994-a34f-4405-9757-67a7a521d442.jpg
 wwwroot\Files\GameImage\9768788e-402b-4783-bc82-7686af6accd6.jpg
+wwwroot\Files\GameImage\fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.jpg
 wwwroot\images\a728894b-23b0-4479-af91-3d1b869bf715.jpg
 wwwroot\images\bd4874fc-dd3f-43a5-a129-cb7385e2d46d.jpg
 wwwroot\images\d1350fbb-1b73-4919-a0b6-c01d52746d35.jpg

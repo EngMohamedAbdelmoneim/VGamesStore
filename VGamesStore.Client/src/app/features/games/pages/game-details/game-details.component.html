@@ -1,1 +1,9 @@
-<p>game-details works!</p>
+<div class="game-details" *ngIf="game$ | async as game">
+  <img [src]="getFormattedPrice(game.imageUrl)" alt="{{ game.title }}">
+  <h1>{{ game.title }}</h1>
+  <h3>Developed by: {{ game.developer }}</h3>
+  <p><strong>Type:</strong> {{ game.type }}</p>
+  <p><strong>Price:</strong> {{ game.price | currency }}</p>
+  <p><strong>Release Date:</strong> {{ game.releaseDate | date }}</p>
+  <p>{{ game.description }}</p>
+</div>

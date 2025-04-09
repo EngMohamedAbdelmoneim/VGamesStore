@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wGlwHdEy28HJZPaO6QUbrqZKHQzxg0LJ1IQPlTMhgAY=",
+  "Hash": "3dbVeYbOrMpFXqAOuol4oNquGR54ISCwOBrqPYdcM4I=",
   "Source": "VGamesStore.Api",
   "BasePath": "_content/VGamesStore.Api",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "VGamesStore.Api\\wwwroot",
       "Source": "VGamesStore.Api",
-      "ContentRoot": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
+      "ContentRoot": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
       "BasePath": "_content/VGamesStore.Api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\1b1c3994-a34f-4405-9757-67a7a521d442.jpg",
+      "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\1b1c3994-a34f-4405-9757-67a7a521d442.jpg",
       "SourceId": "VGamesStore.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
+      "ContentRoot": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
       "BasePath": "_content/VGamesStore.Api",
       "RelativePath": "Files/GameImage/1b1c3994-a34f-4405-9757-67a7a521d442#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\Files\\GameImage\\1b1c3994-a34f-4405-9757-67a7a521d442.jpg"
     },
     {
-      "Identity": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\9768788e-402b-4783-bc82-7686af6accd6.jpg",
+      "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\9768788e-402b-4783-bc82-7686af6accd6.jpg",
       "SourceId": "VGamesStore.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
+      "ContentRoot": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
       "BasePath": "_content/VGamesStore.Api",
       "RelativePath": "Files/GameImage/9768788e-402b-4783-bc82-7686af6accd6#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\Files\\GameImage\\9768788e-402b-4783-bc82-7686af6accd6.jpg"
     },
     {
-      "Identity": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.jpg",
+      "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.jpg",
       "SourceId": "VGamesStore.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
+      "ContentRoot": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
       "BasePath": "_content/VGamesStore.Api",
       "RelativePath": "Files/GameImage/fd6b34ee-8843-4e18-a3f2-e5d30d7e4998#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\Files\\GameImage\\fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.jpg"
     },
     {
-      "Identity": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\a728894b-23b0-4479-af91-3d1b869bf715.jpg",
+      "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\a728894b-23b0-4479-af91-3d1b869bf715.jpg",
       "SourceId": "VGamesStore.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
+      "ContentRoot": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
       "BasePath": "_content/VGamesStore.Api",
       "RelativePath": "images/a728894b-23b0-4479-af91-3d1b869bf715#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\images\\a728894b-23b0-4479-af91-3d1b869bf715.jpg"
     },
     {
-      "Identity": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\bd4874fc-dd3f-43a5-a129-cb7385e2d46d.jpg",
+      "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\bd4874fc-dd3f-43a5-a129-cb7385e2d46d.jpg",
       "SourceId": "VGamesStore.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
+      "ContentRoot": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
       "BasePath": "_content/VGamesStore.Api",
       "RelativePath": "images/bd4874fc-dd3f-43a5-a129-cb7385e2d46d#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bd4874fc-dd3f-43a5-a129-cb7385e2d46d.jpg"
     },
     {
-      "Identity": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\d1350fbb-1b73-4919-a0b6-c01d52746d35.jpg",
+      "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\d1350fbb-1b73-4919-a0b6-c01d52746d35.jpg",
       "SourceId": "VGamesStore.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
+      "ContentRoot": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
       "BasePath": "_content/VGamesStore.Api",
       "RelativePath": "images/d1350fbb-1b73-4919-a0b6-c01d52746d35#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\images\\d1350fbb-1b73-4919-a0b6-c01d52746d35.jpg"
     },
     {
-      "Identity": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\eace16b1-edbf-474c-978b-f59909b9bafe.jpg",
+      "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\eace16b1-edbf-474c-978b-f59909b9bafe.jpg",
       "SourceId": "VGamesStore.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
+      "ContentRoot": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
       "BasePath": "_content/VGamesStore.Api",
       "RelativePath": "images/eace16b1-edbf-474c-978b-f59909b9bafe#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -167,7 +167,7 @@
   "Endpoints": [
     {
       "Route": "Files/GameImage/1b1c3994-a34f-4405-9757-67a7a521d442.jpg",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\1b1c3994-a34f-4405-9757-67a7a521d442.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\1b1c3994-a34f-4405-9757-67a7a521d442.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -204,7 +204,7 @@
     },
     {
       "Route": "Files/GameImage/1b1c3994-a34f-4405-9757-67a7a521d442.uw36cwhzn0.jpg",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\1b1c3994-a34f-4405-9757-67a7a521d442.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\1b1c3994-a34f-4405-9757-67a7a521d442.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -249,7 +249,7 @@
     },
     {
       "Route": "Files/GameImage/9768788e-402b-4783-bc82-7686af6accd6.2s5v30cqq4.jpg",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\9768788e-402b-4783-bc82-7686af6accd6.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\9768788e-402b-4783-bc82-7686af6accd6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -294,7 +294,7 @@
     },
     {
       "Route": "Files/GameImage/9768788e-402b-4783-bc82-7686af6accd6.jpg",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\9768788e-402b-4783-bc82-7686af6accd6.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\9768788e-402b-4783-bc82-7686af6accd6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -331,7 +331,7 @@
     },
     {
       "Route": "Files/GameImage/fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.jpg",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -368,7 +368,7 @@
     },
     {
       "Route": "Files/GameImage/fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.uw36cwhzn0.jpg",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -413,7 +413,7 @@
     },
     {
       "Route": "images/a728894b-23b0-4479-af91-3d1b869bf715.jpg",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\a728894b-23b0-4479-af91-3d1b869bf715.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\a728894b-23b0-4479-af91-3d1b869bf715.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -450,7 +450,7 @@
     },
     {
       "Route": "images/a728894b-23b0-4479-af91-3d1b869bf715.tz08v6jnij.jpg",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\a728894b-23b0-4479-af91-3d1b869bf715.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\a728894b-23b0-4479-af91-3d1b869bf715.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -495,7 +495,7 @@
     },
     {
       "Route": "images/bd4874fc-dd3f-43a5-a129-cb7385e2d46d.jpg",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\bd4874fc-dd3f-43a5-a129-cb7385e2d46d.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\bd4874fc-dd3f-43a5-a129-cb7385e2d46d.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -532,7 +532,7 @@
     },
     {
       "Route": "images/bd4874fc-dd3f-43a5-a129-cb7385e2d46d.tz08v6jnij.jpg",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\bd4874fc-dd3f-43a5-a129-cb7385e2d46d.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\bd4874fc-dd3f-43a5-a129-cb7385e2d46d.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -577,7 +577,7 @@
     },
     {
       "Route": "images/d1350fbb-1b73-4919-a0b6-c01d52746d35.jpg",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\d1350fbb-1b73-4919-a0b6-c01d52746d35.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\d1350fbb-1b73-4919-a0b6-c01d52746d35.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -614,7 +614,7 @@
     },
     {
       "Route": "images/d1350fbb-1b73-4919-a0b6-c01d52746d35.tz08v6jnij.jpg",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\d1350fbb-1b73-4919-a0b6-c01d52746d35.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\d1350fbb-1b73-4919-a0b6-c01d52746d35.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -659,7 +659,7 @@
     },
     {
       "Route": "images/eace16b1-edbf-474c-978b-f59909b9bafe.jpg",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\eace16b1-edbf-474c-978b-f59909b9bafe.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\eace16b1-edbf-474c-978b-f59909b9bafe.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -696,7 +696,7 @@
     },
     {
       "Route": "images/eace16b1-edbf-474c-978b-f59909b9bafe.tz08v6jnij.jpg",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\eace16b1-edbf-474c-978b-f59909b9bafe.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\images\\eace16b1-edbf-474c-978b-f59909b9bafe.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {

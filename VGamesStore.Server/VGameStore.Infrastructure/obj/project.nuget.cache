@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ss5ivhLBU88=",
+  "dgSpecHash": "OlsqA81A0Rs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGameStore.Infrastructure\\VGameStore.Infrastructure.csproj",
+  "projectFilePath": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\VGameStore.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moham\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\moham\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

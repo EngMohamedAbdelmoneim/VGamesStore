@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGameStore.Core\\VGameStore.Core.csproj",
+      "projectUniqueName": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Core\\VGameStore.Core.csproj",
       "projectName": "VGameStore.Core",
-      "projectPath": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGameStore.Core\\VGameStore.Core.csproj",
+      "projectPath": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Core\\VGameStore.Core.csproj",
       "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGameStore.Core\\obj\\",
+      "outputPath": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

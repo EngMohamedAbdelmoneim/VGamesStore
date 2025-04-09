@@ -6,9 +6,7 @@ using VGameStore.Core.Entities;
 
 namespace VGamesStore.Api.Controllers
 {
-	[ApiController]
-	[Route("api/[controller]")]
-	public class GameController : ControllerBase
+	public class GameController : BaseController
 	{
 		private readonly IGameService _gameService;
 

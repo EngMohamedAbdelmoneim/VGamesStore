@@ -6,9 +6,17 @@
   font-style: normal;
 }
 
+:root {
+  --primary-color: #0D0226;
+  --secondary-color: #230A59;
+  --background-color: #0D0226;
+  --text-color-primary: whitesmoke;
+  --text-color-secondary: #F238C1;
+}
+
 body {
   font-family: 'Venite Adoremus', sans-serif;
-  background-color: #333;
+  background-color: var(--background-color);
   margin: 0;
   padding: 0;
 }

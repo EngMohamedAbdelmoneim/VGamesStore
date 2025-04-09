@@ -9,3 +9,15 @@ C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Core\obj\Debug\net8.0\
 C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Core\obj\Debug\net8.0\refint\VGameStore.Core.dll
 C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Core\obj\Debug\net8.0\VGameStore.Core.pdb
 C:\Users\moham\source\repos\VGamesStore.Server\VGameStore.Core\obj\Debug\net8.0\ref\VGameStore.Core.dll
+D:\VGamesStore\VGamesStore.Server\VGameStore.Core\bin\Debug\net8.0\VGameStore.Core.deps.json
+D:\VGamesStore\VGamesStore.Server\VGameStore.Core\bin\Debug\net8.0\VGameStore.Core.dll
+D:\VGamesStore\VGamesStore.Server\VGameStore.Core\bin\Debug\net8.0\VGameStore.Core.pdb
+D:\VGamesStore\VGamesStore.Server\VGameStore.Core\obj\Debug\net8.0\VGameStore.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\VGamesStore\VGamesStore.Server\VGameStore.Core\obj\Debug\net8.0\VGameStore.Core.AssemblyInfoInputs.cache
+D:\VGamesStore\VGamesStore.Server\VGameStore.Core\obj\Debug\net8.0\VGameStore.Core.AssemblyInfo.cs
+D:\VGamesStore\VGamesStore.Server\VGameStore.Core\obj\Debug\net8.0\VGameStore.Core.csproj.CoreCompileInputs.cache
+D:\VGamesStore\VGamesStore.Server\VGameStore.Core\obj\Debug\net8.0\VGameStore.Core.sourcelink.json
+D:\VGamesStore\VGamesStore.Server\VGameStore.Core\obj\Debug\net8.0\VGameStore.Core.dll
+D:\VGamesStore\VGamesStore.Server\VGameStore.Core\obj\Debug\net8.0\refint\VGameStore.Core.dll
+D:\VGamesStore\VGamesStore.Server\VGameStore.Core\obj\Debug\net8.0\VGameStore.Core.pdb
+D:\VGamesStore\VGamesStore.Server\VGameStore.Core\obj\Debug\net8.0\ref\VGameStore.Core.dll

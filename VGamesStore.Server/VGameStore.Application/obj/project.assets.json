@@ -2919,11 +2919,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGameStore.Application\\VGameStore.Application.csproj",
+      "projectUniqueName": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\VGameStore.Application.csproj",
       "projectName": "VGameStore.Application",
-      "projectPath": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGameStore.Application\\VGameStore.Application.csproj",
+      "projectPath": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\VGameStore.Application.csproj",
       "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGameStore.Application\\obj\\",
+      "outputPath": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2944,11 +2944,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGameStore.Core\\VGameStore.Core.csproj": {
-              "projectPath": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGameStore.Core\\VGameStore.Core.csproj"
+            "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Core\\VGameStore.Core.csproj": {
+              "projectPath": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Core\\VGameStore.Core.csproj"
             },
-            "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGameStore.Infrastructure\\VGameStore.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\moham\\source\\repos\\VGamesStore.Server\\VGameStore.Infrastructure\\VGameStore.Infrastructure.csproj"
+            "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\VGameStore.Infrastructure.csproj": {
+              "projectPath": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\VGameStore.Infrastructure.csproj"
             }
           }
         }

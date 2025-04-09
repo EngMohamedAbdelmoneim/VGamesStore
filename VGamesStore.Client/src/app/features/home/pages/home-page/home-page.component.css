@@ -1,0 +1,24 @@
+.home-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#carouselExampleInterval{
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+#search-bar{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px 0;
+}
+#search-btn{
+  color: var(--text-color-secondary);
+  border: 2px solid var(--text-color-secondary);
+}

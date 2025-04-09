@@ -9,9 +9,9 @@ using AutoMapper;
 
 namespace VGameStore.Application.Mappings
 {
-	public class MappingProfile : Profile
+	public class GameProfile : Profile
 	{
-		public MappingProfile()
+		public GameProfile()
 		{
 			CreateMap<Game, GameDto>();
 			CreateMap<CreateGameDto, Game>();

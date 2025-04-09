@@ -32,11 +32,14 @@ builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepositor
 
 // Register the specific repository and service
 builder.Services.AddScoped<IGameRepository, GameRepository>();
+
 builder.Services.AddScoped<IGameService, GameService>();
 
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 
 // Add AutoMapper
-builder.Services.AddAutoMapper(typeof(MappingProfile));
+builder.Services.AddAutoMapper(typeof(GameProfile));
+builder.Services.AddAutoMapper(typeof(CategoryProfile));
 
 var app = builder.Build();
 

@@ -1,28 +1,31 @@
 .navbar {
-  background-color: #333;
+  background-color: var(--background-color);;
   margin: 0;
  }
 
  .navbar span {
-  color: white;
+  color: var(--text-color-primary);
   font-size: 1.5rem;
   font-weight: bold;
   cursor: pointer;
 }
 .navbar .v{
-  color: #f136aa;
+  color: var(--text-color-secondary);
   cursor: pointer;
 }
 .navbar button {
-  color: white;
+  color: var(--text-color-primary);
   margin-right: 1rem;
   text-decoration: none;
 }
-.navbar a:hover {
-  color: #f136aa;
-  text-decoration: underline;
+.navbar button:hover {
+  color: var(--text-color-secondary);
+ }
+ .active-link {
+  font-weight: bold;
+  color: yellow !important; /* or any color that looks good with your theme */
+  border-bottom: 2px solid white;
 }
-
 .navbar mat-icon {
   width: 50px;
   height: 50px;

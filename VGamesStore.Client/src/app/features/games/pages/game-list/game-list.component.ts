@@ -16,7 +16,7 @@ import { GameCardComponent } from "../../components/game.card/game.card.componen
   styleUrls: ['./game-list.component.css']
 })
 export class GameListComponent implements OnInit {
-  private store = inject(Store);
+    private store = inject(Store);
 
   games$: Observable<Game[]> = this.store.select(selectAllGames);
   loading$: Observable<boolean> = this.store.select(selectLoading);

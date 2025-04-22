@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3dbVeYbOrMpFXqAOuol4oNquGR54ISCwOBrqPYdcM4I=",
+  "Hash": "kYr4dZVOzHRYZoQBsbErPnmNudL0UMHHv6JqLVoWxQc=",
   "Source": "VGamesStore.Api",
   "BasePath": "_content/VGamesStore.Api",
   "Mode": "Default",
@@ -16,6 +16,27 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\14068002-867c-479b-9ba6-0a49b8a2ed02.jpg",
+      "SourceId": "VGamesStore.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
+      "BasePath": "_content/VGamesStore.Api",
+      "RelativePath": "Files/GameImage/14068002-867c-479b-9ba6-0a49b8a2ed02#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tgb7hcuhin",
+      "Integrity": "M0nTjeBlWNKRa00dHjYilJiap0Rl5ABtJCOWIJkYGoA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\GameImage\\14068002-867c-479b-9ba6-0a49b8a2ed02.jpg"
+    },
     {
       "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\1b1c3994-a34f-4405-9757-67a7a521d442.jpg",
       "SourceId": "VGamesStore.Api",
@@ -38,6 +59,90 @@
       "OriginalItemSpec": "wwwroot\\Files\\GameImage\\1b1c3994-a34f-4405-9757-67a7a521d442.jpg"
     },
     {
+      "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\1e2c8c57-10b2-481b-b01f-f52eb9f67da0.jpg",
+      "SourceId": "VGamesStore.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
+      "BasePath": "_content/VGamesStore.Api",
+      "RelativePath": "Files/GameImage/1e2c8c57-10b2-481b-b01f-f52eb9f67da0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y5afmip95o",
+      "Integrity": "yvADb/VvQTC+iLMzFNNZqv2MBwDOzqf2KqleyKcXFPw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\GameImage\\1e2c8c57-10b2-481b-b01f-f52eb9f67da0.jpg"
+    },
+    {
+      "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\2c87f32f-a6e7-4547-83dd-878f50e82cc0.jpg",
+      "SourceId": "VGamesStore.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
+      "BasePath": "_content/VGamesStore.Api",
+      "RelativePath": "Files/GameImage/2c87f32f-a6e7-4547-83dd-878f50e82cc0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6qvbl2wf7n",
+      "Integrity": "ok0d8RxrvseWVd/Mu7XYiU2EYuS6ks1GuWhK8x+sZqk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\GameImage\\2c87f32f-a6e7-4547-83dd-878f50e82cc0.jpg"
+    },
+    {
+      "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\2ec237c6-1dd3-4bfb-8668-01c76cc4f74a.jpg",
+      "SourceId": "VGamesStore.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
+      "BasePath": "_content/VGamesStore.Api",
+      "RelativePath": "Files/GameImage/2ec237c6-1dd3-4bfb-8668-01c76cc4f74a#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s29kk0i7zm",
+      "Integrity": "DCHzlA4bFuz81nnXGhS2fxPw060+7LhWvhtX2opBCWg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\GameImage\\2ec237c6-1dd3-4bfb-8668-01c76cc4f74a.jpg"
+    },
+    {
+      "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\4e023f86-bd58-4cb2-b2a6-69d8af331852.jpg",
+      "SourceId": "VGamesStore.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
+      "BasePath": "_content/VGamesStore.Api",
+      "RelativePath": "Files/GameImage/4e023f86-bd58-4cb2-b2a6-69d8af331852#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9orfz3mt1p",
+      "Integrity": "2chJkF+EyxsKOT6eYhwS8QeRS7AMDo4mrPee/bmW2/M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\GameImage\\4e023f86-bd58-4cb2-b2a6-69d8af331852.jpg"
+    },
+    {
       "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\9768788e-402b-4783-bc82-7686af6accd6.jpg",
       "SourceId": "VGamesStore.Api",
       "SourceType": "Discovered",
@@ -57,6 +162,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Files\\GameImage\\9768788e-402b-4783-bc82-7686af6accd6.jpg"
+    },
+    {
+      "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\9dd91fd0-75af-476f-a35c-d29f023aa8fa.jpg",
+      "SourceId": "VGamesStore.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
+      "BasePath": "_content/VGamesStore.Api",
+      "RelativePath": "Files/GameImage/9dd91fd0-75af-476f-a35c-d29f023aa8fa#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y5afmip95o",
+      "Integrity": "yvADb/VvQTC+iLMzFNNZqv2MBwDOzqf2KqleyKcXFPw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\GameImage\\9dd91fd0-75af-476f-a35c-d29f023aa8fa.jpg"
+    },
+    {
+      "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\b203c308-4e8a-4cfc-bbc0-693653850177.jpg",
+      "SourceId": "VGamesStore.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
+      "BasePath": "_content/VGamesStore.Api",
+      "RelativePath": "Files/GameImage/b203c308-4e8a-4cfc-bbc0-693653850177#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9orfz3mt1p",
+      "Integrity": "2chJkF+EyxsKOT6eYhwS8QeRS7AMDo4mrPee/bmW2/M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\GameImage\\b203c308-4e8a-4cfc-bbc0-693653850177.jpg"
+    },
+    {
+      "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\df662393-6d22-4747-be44-02109541275d.jpg",
+      "SourceId": "VGamesStore.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
+      "BasePath": "_content/VGamesStore.Api",
+      "RelativePath": "Files/GameImage/df662393-6d22-4747-be44-02109541275d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s29kk0i7zm",
+      "Integrity": "DCHzlA4bFuz81nnXGhS2fxPw060+7LhWvhtX2opBCWg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\GameImage\\df662393-6d22-4747-be44-02109541275d.jpg"
+    },
+    {
+      "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\f842c0be-01f5-4217-89c5-744801200bfa.jpg",
+      "SourceId": "VGamesStore.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\",
+      "BasePath": "_content/VGamesStore.Api",
+      "RelativePath": "Files/GameImage/f842c0be-01f5-4217-89c5-744801200bfa#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9orfz3mt1p",
+      "Integrity": "2chJkF+EyxsKOT6eYhwS8QeRS7AMDo4mrPee/bmW2/M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\GameImage\\f842c0be-01f5-4217-89c5-744801200bfa.jpg"
     },
     {
       "Identity": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\fd6b34ee-8843-4e18-a3f2-e5d30d7e4998.jpg",
@@ -166,6 +355,88 @@
   ],
   "Endpoints": [
     {
+      "Route": "Files/GameImage/14068002-867c-479b-9ba6-0a49b8a2ed02.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\14068002-867c-479b-9ba6-0a49b8a2ed02.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M0nTjeBlWNKRa00dHjYilJiap0Rl5ABtJCOWIJkYGoA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:47:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M0nTjeBlWNKRa00dHjYilJiap0Rl5ABtJCOWIJkYGoA="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/14068002-867c-479b-9ba6-0a49b8a2ed02.tgb7hcuhin.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\14068002-867c-479b-9ba6-0a49b8a2ed02.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M0nTjeBlWNKRa00dHjYilJiap0Rl5ABtJCOWIJkYGoA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:47:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tgb7hcuhin"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/GameImage/14068002-867c-479b-9ba6-0a49b8a2ed02.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M0nTjeBlWNKRa00dHjYilJiap0Rl5ABtJCOWIJkYGoA="
+        }
+      ]
+    },
+    {
       "Route": "Files/GameImage/1b1c3994-a34f-4405-9757-67a7a521d442.jpg",
       "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\1b1c3994-a34f-4405-9757-67a7a521d442.jpg",
       "Selectors": [],
@@ -248,6 +519,334 @@
       ]
     },
     {
+      "Route": "Files/GameImage/1e2c8c57-10b2-481b-b01f-f52eb9f67da0.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\1e2c8c57-10b2-481b-b01f-f52eb9f67da0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yvADb/VvQTC+iLMzFNNZqv2MBwDOzqf2KqleyKcXFPw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:49:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yvADb/VvQTC+iLMzFNNZqv2MBwDOzqf2KqleyKcXFPw="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/1e2c8c57-10b2-481b-b01f-f52eb9f67da0.y5afmip95o.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\1e2c8c57-10b2-481b-b01f-f52eb9f67da0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yvADb/VvQTC+iLMzFNNZqv2MBwDOzqf2KqleyKcXFPw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:49:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y5afmip95o"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/GameImage/1e2c8c57-10b2-481b-b01f-f52eb9f67da0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yvADb/VvQTC+iLMzFNNZqv2MBwDOzqf2KqleyKcXFPw="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/2c87f32f-a6e7-4547-83dd-878f50e82cc0.6qvbl2wf7n.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\2c87f32f-a6e7-4547-83dd-878f50e82cc0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10602"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ok0d8RxrvseWVd/Mu7XYiU2EYuS6ks1GuWhK8x+sZqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:47:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6qvbl2wf7n"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/GameImage/2c87f32f-a6e7-4547-83dd-878f50e82cc0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ok0d8RxrvseWVd/Mu7XYiU2EYuS6ks1GuWhK8x+sZqk="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/2c87f32f-a6e7-4547-83dd-878f50e82cc0.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\2c87f32f-a6e7-4547-83dd-878f50e82cc0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10602"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ok0d8RxrvseWVd/Mu7XYiU2EYuS6ks1GuWhK8x+sZqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:47:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ok0d8RxrvseWVd/Mu7XYiU2EYuS6ks1GuWhK8x+sZqk="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/2ec237c6-1dd3-4bfb-8668-01c76cc4f74a.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\2ec237c6-1dd3-4bfb-8668-01c76cc4f74a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DCHzlA4bFuz81nnXGhS2fxPw060+7LhWvhtX2opBCWg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 06:06:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DCHzlA4bFuz81nnXGhS2fxPw060+7LhWvhtX2opBCWg="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/2ec237c6-1dd3-4bfb-8668-01c76cc4f74a.s29kk0i7zm.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\2ec237c6-1dd3-4bfb-8668-01c76cc4f74a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DCHzlA4bFuz81nnXGhS2fxPw060+7LhWvhtX2opBCWg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 06:06:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s29kk0i7zm"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/GameImage/2ec237c6-1dd3-4bfb-8668-01c76cc4f74a.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DCHzlA4bFuz81nnXGhS2fxPw060+7LhWvhtX2opBCWg="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/4e023f86-bd58-4cb2-b2a6-69d8af331852.9orfz3mt1p.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\4e023f86-bd58-4cb2-b2a6-69d8af331852.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2chJkF+EyxsKOT6eYhwS8QeRS7AMDo4mrPee/bmW2/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 06:07:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9orfz3mt1p"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/GameImage/4e023f86-bd58-4cb2-b2a6-69d8af331852.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2chJkF+EyxsKOT6eYhwS8QeRS7AMDo4mrPee/bmW2/M="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/4e023f86-bd58-4cb2-b2a6-69d8af331852.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\4e023f86-bd58-4cb2-b2a6-69d8af331852.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2chJkF+EyxsKOT6eYhwS8QeRS7AMDo4mrPee/bmW2/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 06:07:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2chJkF+EyxsKOT6eYhwS8QeRS7AMDo4mrPee/bmW2/M="
+        }
+      ]
+    },
+    {
       "Route": "Files/GameImage/9768788e-402b-4783-bc82-7686af6accd6.2s5v30cqq4.jpg",
       "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\9768788e-402b-4783-bc82-7686af6accd6.jpg",
       "Selectors": [],
@@ -326,6 +925,334 @@
         {
           "Name": "integrity",
           "Value": "sha256-/q2Li6gvnEHHYd28I20u1UoAMFQYdYuryRcU6EmYDkc="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/9dd91fd0-75af-476f-a35c-d29f023aa8fa.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\9dd91fd0-75af-476f-a35c-d29f023aa8fa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yvADb/VvQTC+iLMzFNNZqv2MBwDOzqf2KqleyKcXFPw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 06:09:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yvADb/VvQTC+iLMzFNNZqv2MBwDOzqf2KqleyKcXFPw="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/9dd91fd0-75af-476f-a35c-d29f023aa8fa.y5afmip95o.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\9dd91fd0-75af-476f-a35c-d29f023aa8fa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yvADb/VvQTC+iLMzFNNZqv2MBwDOzqf2KqleyKcXFPw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 06:09:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y5afmip95o"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/GameImage/9dd91fd0-75af-476f-a35c-d29f023aa8fa.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yvADb/VvQTC+iLMzFNNZqv2MBwDOzqf2KqleyKcXFPw="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/b203c308-4e8a-4cfc-bbc0-693653850177.9orfz3mt1p.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\b203c308-4e8a-4cfc-bbc0-693653850177.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2chJkF+EyxsKOT6eYhwS8QeRS7AMDo4mrPee/bmW2/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 06:08:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9orfz3mt1p"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/GameImage/b203c308-4e8a-4cfc-bbc0-693653850177.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2chJkF+EyxsKOT6eYhwS8QeRS7AMDo4mrPee/bmW2/M="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/b203c308-4e8a-4cfc-bbc0-693653850177.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\b203c308-4e8a-4cfc-bbc0-693653850177.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2chJkF+EyxsKOT6eYhwS8QeRS7AMDo4mrPee/bmW2/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 06:08:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2chJkF+EyxsKOT6eYhwS8QeRS7AMDo4mrPee/bmW2/M="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/df662393-6d22-4747-be44-02109541275d.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\df662393-6d22-4747-be44-02109541275d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DCHzlA4bFuz81nnXGhS2fxPw060+7LhWvhtX2opBCWg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:51:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DCHzlA4bFuz81nnXGhS2fxPw060+7LhWvhtX2opBCWg="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/df662393-6d22-4747-be44-02109541275d.s29kk0i7zm.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\df662393-6d22-4747-be44-02109541275d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DCHzlA4bFuz81nnXGhS2fxPw060+7LhWvhtX2opBCWg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:51:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s29kk0i7zm"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/GameImage/df662393-6d22-4747-be44-02109541275d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DCHzlA4bFuz81nnXGhS2fxPw060+7LhWvhtX2opBCWg="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/f842c0be-01f5-4217-89c5-744801200bfa.9orfz3mt1p.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\f842c0be-01f5-4217-89c5-744801200bfa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2chJkF+EyxsKOT6eYhwS8QeRS7AMDo4mrPee/bmW2/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:50:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9orfz3mt1p"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/GameImage/f842c0be-01f5-4217-89c5-744801200bfa.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2chJkF+EyxsKOT6eYhwS8QeRS7AMDo4mrPee/bmW2/M="
+        }
+      ]
+    },
+    {
+      "Route": "Files/GameImage/f842c0be-01f5-4217-89c5-744801200bfa.jpg",
+      "AssetFile": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\f842c0be-01f5-4217-89c5-744801200bfa.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2chJkF+EyxsKOT6eYhwS8QeRS7AMDo4mrPee/bmW2/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 05:50:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2chJkF+EyxsKOT6eYhwS8QeRS7AMDo4mrPee/bmW2/M="
         }
       ]
     },

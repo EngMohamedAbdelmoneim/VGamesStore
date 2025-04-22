@@ -20,6 +20,7 @@ namespace VGameStore.Application.DTOs
 		public string Developer { get; set; } = string.Empty;
 		public DateTime ReleaseDate { get; set; }
 		public IFormFile? File { get; set; }
+		public int? CategoryId { get; set; }
 
 	}
 
@@ -34,6 +35,8 @@ namespace VGameStore.Application.DTOs
 		public string Developer { get; set; } = string.Empty;
 		public DateTime ReleaseDate { get; set; }
 		public IFormFile? File { get; set; }
+		public int? CategoryId { get; set; }
+
 
 	}
 
@@ -49,6 +52,8 @@ namespace VGameStore.Application.DTOs
 		public string Developer { get; set; } = string.Empty;
 		public DateTime ReleaseDate { get; set; }
 		public string ImageUrl { get; set; } = string.Empty;
+		public int? CategoryId { get; set; }
+
 	}
 }
 

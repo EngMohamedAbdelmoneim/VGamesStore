@@ -7,4 +7,5 @@ export interface Game {
     developer: string;
     releaseDate: Date;
     imageUrl?: string | null;
+    categoryId?:number | null;
   }

@@ -47,9 +47,8 @@ namespace VGameStore.Infrastructure.Persistence.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Category")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int?>("CategoryId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -79,7 +78,18 @@ namespace VGameStore.Infrastructure.Persistence.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CategoryId");
+
                     b.ToTable("Games");
+                });
+
+            modelBuilder.Entity("VGameStore.Core.Entities.Game", b =>
+                {
+                    b.HasOne("VGameStore.Core.Entities.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId");
+
+                    b.Navigation("Category");
                 });
 #pragma warning restore 612, 618
         }

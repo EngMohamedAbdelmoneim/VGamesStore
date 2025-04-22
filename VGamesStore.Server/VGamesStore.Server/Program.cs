@@ -4,7 +4,7 @@ using VGameStore.Application.Mappings;
 using VGameStore.Application.Repositories;
 using VGameStore.Application.Services;
 using VGameStore.Infrastructure.Persistence;
-using VGameStore.Persistence;
+ using VGameStore.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,10 +32,13 @@ builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepositor
 
 // Register the specific repository and service
 builder.Services.AddScoped<IGameRepository, GameRepository>();
+builder.Services.AddScoped<ISearchRepository, SearchRepository>();
 
+// Register the services
 builder.Services.AddScoped<IGameService, GameService>();
-
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<ISearchService, SearchService>();
+
 
 // Add AutoMapper
 builder.Services.AddAutoMapper(typeof(GameProfile));

@@ -1,9 +1,7 @@
 <div class="home-page">
   <div id="search-bar">
-    <form class="d-flex">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button id="search-btn" class="btn btn-outline" type="submit">Search</button>
-    </form>
+      <input class="form-control me-2" type="search"  [(ngModel)]="searchText"  placeholder="Search" aria-label="Search">
+      <button id="search-btn" class="btn btn-outline"  [routerLink]="['/search', searchText]" type="button">Search</button>
   </div>
   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">

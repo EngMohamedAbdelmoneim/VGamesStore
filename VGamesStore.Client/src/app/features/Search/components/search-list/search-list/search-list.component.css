@@ -1,0 +1,26 @@
+h2{
+  color: var(--text-color-primary);
+}
+.search-list {
+  text-align: center;
+
+  .loading {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-color-secondary);
+  }
+
+  .game-card {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: var(--secondary-color);
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

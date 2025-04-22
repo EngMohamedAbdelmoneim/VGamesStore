@@ -1,0 +1,17 @@
+<div class="search-list">
+  <div *ngIf="loading$ | async" class="loading">
+    Loading Games List...
+  </div>
+
+  <div *ngIf="!(loading$ | async)">
+    <h2>Games List</h2>
+    <div *ngIf="searchGames$">
+      <div *ngFor="let game of searchGames$ | async" class="game-card"  [routerLink]="['/games', game.id]">
+        <app-game-card [game]="game"></app-game-card>
+      </div>
+    </div>
+    <div *ngIf="!(searchGames$ | async)?.length" class="no-results">
+      <p>Try searching for something else.</p>
+    </div>
+  </div>
+</div>

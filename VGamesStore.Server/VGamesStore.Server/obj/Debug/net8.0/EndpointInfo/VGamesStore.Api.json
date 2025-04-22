@@ -218,6 +218,10 @@
                   "File": {
                     "type": "string",
                     "format": "binary"
+                  },
+                  "CategoryId": {
+                    "type": "integer",
+                    "format": "int32"
                   }
                 }
               },
@@ -241,6 +245,9 @@
                   "style": "form"
                 },
                 "File": {
+                  "style": "form"
+                },
+                "CategoryId": {
                   "style": "form"
                 }
               }
@@ -299,6 +306,10 @@
                   "File": {
                     "type": "string",
                     "format": "binary"
+                  },
+                  "CategoryId": {
+                    "type": "integer",
+                    "format": "int32"
                   }
                 }
               },
@@ -322,6 +333,9 @@
                   "style": "form"
                 },
                 "File": {
+                  "style": "form"
+                },
+                "CategoryId": {
                   "style": "form"
                 }
               }
@@ -348,6 +362,168 @@
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Search/SearchGames/search": {
+      "get": {
+        "tags": [
+          "Search"
+        ],
+        "parameters": [
+          {
+            "name": "Keyword",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Search/SearchGamesByCategory/search/category": {
+      "get": {
+        "tags": [
+          "Search"
+        ],
+        "parameters": [
+          {
+            "name": "category",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Search/SortGamesAscending/sort/ascending": {
+      "get": {
+        "tags": [
+          "Search"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Search/SortGamesDescending/sort/descending": {
+      "get": {
+        "tags": [
+          "Search"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Search/SortGamesByPrice/sort/price": {
+      "get": {
+        "tags": [
+          "Search"
+        ],
+        "parameters": [
+          {
+            "name": "minPrice",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "maxPrice",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Search/FilterGames/search": {
+      "get": {
+        "tags": [
+          "Search"
+        ],
+        "parameters": [
+          {
+            "name": "Keyword",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "CategoryId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "MinPrice",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          },
+          {
+            "name": "MaxPrice",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          },
+          {
+            "name": "Developer",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "SortBy",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Ascending",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
             }
           }
         ],

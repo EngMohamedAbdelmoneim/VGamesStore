@@ -20,6 +20,8 @@ namespace VGameStore.Core.Entities
 		public string Developer { get; set; } = string.Empty;
 		public DateTime ReleaseDate { get; set; }
 		public string ImageUrl { get; set; } = string.Empty;
-		public virtual string Category { get; set; } = string.Empty;
+		public virtual Category? Category { get; set; }
+		public int CategoryId { get; set; }
+
 	}
 }

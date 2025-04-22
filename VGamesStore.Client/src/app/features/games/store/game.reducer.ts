@@ -37,6 +37,10 @@ export const gameReducer = createReducer(
     loading: false,
     error
   }))
+
+  
 );
+
+
 
 

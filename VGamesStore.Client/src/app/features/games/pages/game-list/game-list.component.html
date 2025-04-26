@@ -1,12 +1,25 @@
-<div class="game-list">
-  <div *ngIf="loading$ | async" class="loading">
-    Loading Games List...
+<div class="bar-container">
+  <div class="game-bar">
+    <div class="text">
+      <span *ngFor="let letter of textArray; let i = index"
+            [style.animation-delay.ms]="i * 100">{{ letter }}</span>
+    </div>
+
+    <div class="arrows">
+      <img *ngFor="let arrow of arrows; let i = index"
+           src="http://localhost:4200/assets/right-arrow.png"
+           class="arrow"
+           [style.animation-delay.ms]="(textArray.length + i) * 100" />
+    </div>
   </div>
+</div>
+<div class="game-list">
+  <div *ngIf="loading$ | async" class="loading">Loading Games List...</div>
 
   <div *ngIf="!(loading$ | async)">
-    <h2>Games List</h2>
-    <div *ngFor="let game of games$ | async" class="game-card"  [routerLink]="['/games', game.id]">
-      <app-game-card [game]="game"></app-game-card>
-    </div>
+    <app-game-card
+      *ngFor="let game of games$ | async"
+      [game]="game"
+    ></app-game-card>
   </div>
 </div>

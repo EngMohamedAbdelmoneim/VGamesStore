@@ -2,6 +2,22 @@
   <mat-icon svgIcon="custom-icon"></mat-icon>
   <span style="flex: 1 1 1" class="v">V</span>
   <span style="flex: 1 1 auto">GameStore</span>
+  <div class="input-group flex-nowrap">
+    <input
+      type="search"
+      class="form-control search"
+      placeholder="Search"
+      aria-label="Search"
+      aria-describedby="addon-wrapping"
+      (keyup.enter)="goToSearch()"
+    />
+    <span
+      class="material-icons input-group-text"
+      [routerLink]="['/search', searchText]"
+      id="addon-wrapping"
+      >search</span
+    >
+  </div>
   <button
     mat-button
     [routerLink]="['/']"

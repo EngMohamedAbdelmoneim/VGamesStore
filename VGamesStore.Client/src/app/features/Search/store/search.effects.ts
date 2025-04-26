@@ -1,5 +1,5 @@
 import { SearchService } from './../../../core/services/search.service';
-import {applyingFilter, loadFilteredGamesFailure, loadFilteredGamesSuccess, searchGames, searchGamesFailure, searchGamesSuccess } from "./search.actions";
+import {applyingFilterDto, loadFilterDtoedGamesFailure, loadFilterDtoedGamesSuccess, searchGames, searchGamesFailure, searchGamesSuccess } from "./search.actions";
 import { Injectable, inject } from '@angular/core';
 import { Actions, createEffect, ofType } from '@ngrx/effects';
 import { catchError, map, mergeMap, of, switchMap } from "rxjs";
@@ -22,9 +22,9 @@ searchGames$ = createEffect(() =>
 );
 
 // for filter games
-applyFilter$ = createEffect(() =>
+applyFilterDto$ = createEffect(() =>
   this.actions$.pipe(
-    ofType(applyingFilter),
+    ofType(applyingFilterDto),
     switchMap(({ filter }) =>
       this.searchService.filterGames(filter).pipe(
         map((searchedgames) => searchGamesSuccess({ searchedgames })),

@@ -1,4 +1,4 @@
-import { Filter } from './../models/filter';
+import { FilterDto } from '../models/filter-dto';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Game } from '../models/game';
@@ -14,7 +14,7 @@ export class SearchService {
     return this.http.get<Game[]>(`${this.apiUrl}/SearchGames/search?Keyword=${searchKeyWord}`);
   }
 
-  filterGames(query : Filter) {
+  filterGames(query : FilterDto) {
     let params = new HttpParams();
 
     for (let key in query) {
@@ -26,3 +26,5 @@ export class SearchService {
     return this.http.get<Game[]>(`${this.apiUrl}/FilterGames/search`, {params});
   }
 }
+
+

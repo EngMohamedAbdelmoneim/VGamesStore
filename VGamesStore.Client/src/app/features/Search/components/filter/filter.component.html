@@ -6,8 +6,9 @@
   </div>
 
   <div class="search-category-container">
-    <select class="form-select" [(ngModel)]="filter.categoryId" name="Categories" id="Categories">
-      <option value="volvo">-- Select Genre</option>
+    <select class="form-select" required [(ngModel)]="filter.categoryId">
+      <option [ngValue]="null" [disabled]="true">-- Select Genres --</option>
+      <option *ngFor="let Category of Categories" [value]="Category.id">{{Category.name}}</option>
     </select>
   </div>
 
@@ -30,14 +31,14 @@
   </div>
 
   <div class="search-ascending-container">
-    <select name="Ascending" [(ngModel)]="filter.ascending" id="Ascending">
-      <option [value]="true">ascending</option>
+    <select class="form-select" [(ngModel)]="filter.ascending" >
+      <option [value]="true" selected>ascending</option>
       <option [value]="false">descending</option>
     </select>
   </div>
 
   <div class="filter-buttons">
-    <button class="btn btn-primary me-3" (click)="onFilterChange(filter)">Apply</button>
+    <button class="btn btn-primary me-3" (click)="onFilterDtoChange(filter)">Apply</button>
     <button class="btn btn-secondary" (click)="reset()">Reset</button>
   </div>
-</div>  
+</div>

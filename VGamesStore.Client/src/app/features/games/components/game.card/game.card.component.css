@@ -1,8 +1,23 @@
+.game-card {
+  display: inline-block;
+  width: 220px;
+  height: 350px;
+  margin: 15px;
+  z-index: 1;
+  border-radius: 4px;
+  background-color: var(--secondary-color);
+  transition: transform 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+    z-index: 2;
+  }
+}
+
 img {
   width: 100%;
-  height: 150px;
+  height: 70%;
   border-radius: 5px;
-  object-fit:cover;
+  object-fit:fill;
 }
 
 h3{
@@ -14,6 +29,12 @@ h3{
 p {
   font-size: 14px;
   color: #555;
+  display: block;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3em;
+  line-height: 1em;
 }
 
 span {

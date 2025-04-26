@@ -4,21 +4,39 @@
   align-items: center;
   justify-content: center;
 }
-#carouselExampleInterval{
-  width: 60%;
-  margin: 0 auto;
-  border-radius: 20px;
-  overflow: hidden;
+.custom-carousel {
+  width: 90%;
+  height: 70vh;
+  border-radius: 5px;
 }
-#search-bar{
-  width: 60%;
-  margin: 0 auto;
+
+.custom-carousel .carousel-inner,
+.custom-carousel .carousel-item {
+  height: 100%;
+  border-radius: 5px;
+
+}
+.carousel-item-buttons{
+  position: absolute;
+  top: 80%;
+  width: 30%;
   display: flex;
-  justify-content: start;
-  align-items: center;
-  padding: 20px 0;
+  flex-direction: row;
+  margin-left: 20px;
+  justify-content: center;
+  transform: translateY(-50%);
+  .get-btn{
+    background-color: var(--text-color-secondary);
+    color: var(--secondary-color);
+  }
+  .add-wishlist-btn{
+    background-color: var(--secondary-color-withOP);
+    color: var(--text-color-secondary);
+    margin-left: 20px;
+  }
 }
-#search-btn{
-  color: var(--text-color-secondary);
-  border: 2px solid var(--text-color-secondary);
+
+.custom-carousel img {
+  height: 100%;
+  object-fit: fill;
 }

@@ -10,7 +10,7 @@ import { GameCardComponent } from '../../../../games/components/game.card/game.c
 
 @Component({
   selector: 'app-search-list',
-  imports: [CommonModule, RouterLink, GameCardComponent],
+  imports: [CommonModule, GameCardComponent],
   templateUrl: './search-list.component.html',
   styleUrl: './search-list.component.css'
 })
@@ -25,11 +25,9 @@ export class SearchListComponent implements OnInit {
   ngOnInit(): void {
     const searchKeyWord = this.route.snapshot.paramMap.get('keyword');
     console.log('Search KeyWord:', searchKeyWord);
-    if (searchKeyWord) {
+    if (searchKeyWord || searchKeyWord == '') {
       this.store.dispatch(SearchActions.searchGames({ searchKeyWord: searchKeyWord }));
       console.log('Searched Games Load', this.searchGames$);
-    } else {
-      console.error('Invalid game ID:', searchKeyWord);
     }
   }
 }

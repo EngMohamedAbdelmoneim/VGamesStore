@@ -13,7 +13,7 @@ export class CategoryService {
   constructor(private http: HttpClient) {}
 
   getCategories(): Observable<Category[]>{
-    return this.http.get<Category[]>(this.apiUrl + '/GetAllCategories'); // ✅ Ensure the correct endpoint is used
+    return this.http.get<Category[]>(this.apiUrl + '/GetAllCategory'); // ✅ Ensure the correct endpoint is used
   }
   getCategoryById(id: number) : Observable<Category>{
     console.log('Fetching category with ID:', id); // ✅ Log the category ID to the console

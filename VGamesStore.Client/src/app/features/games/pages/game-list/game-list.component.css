@@ -1,6 +1,45 @@
-h2{
-  color: var(--text-color-primary);
+/* animated bar */
+.bar-container{
+  background-color: var(--secondary-color);
+  width: 100%;
 }
+.game-bar {
+  background-color: var(--secondary-color);/* Dark purple background */
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.text span {
+  font-weight: bold;
+  color: white;
+  margin-right: 2px;
+  font-size: 22px;
+  display: inline-block;
+  transform: translateX(-50px);
+  opacity: 0;
+  animation: slideIn 0.4s forwards;
+}
+
+.arrows .arrow {
+  width: 40px;
+  margin-left: 5px;
+  transform: translateX(-50px);
+  opacity: 0;
+  animation: slideIn 0.4s forwards;
+}
+
+/* Slide-in animation */
+@keyframes slideIn {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+ /* game list */
 .game-list {
   text-align: center;
 
@@ -9,18 +48,6 @@ h2{
     font-weight: bold;
     color: var(--text-color-secondary);
   }
-
-  .game-card {
-    display: inline-block;
-    width: 250px;
-    margin: 15px;
-    padding: 15px;
-    border-radius: 8px;
-    background-color: var(--secondary-color);
-    transition: transform 0.2s ease-in-out;
-
-    &:hover {
-      transform: scale(1.05);
-    }
-  }
 }
+
+

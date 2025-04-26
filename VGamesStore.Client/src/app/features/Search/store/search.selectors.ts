@@ -8,7 +8,7 @@ export const selectLoading = createSelector(selectSearchState, (state : SearchSt
 export const selectError = createSelector(selectSearchState, (state : SearchState) => state.error);
 
 
-export const selectFilteredGames = createSelector(
+export const selectFilterDtoedGames = createSelector(
   selectSearchState,
   (state: SearchState) => state.searchedGames
 );

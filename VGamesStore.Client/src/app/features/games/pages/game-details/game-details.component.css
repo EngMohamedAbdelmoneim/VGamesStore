@@ -10,11 +10,17 @@
 
   h1 {
     font-size: 2rem;
-    color: #333;  
+    color: #333;
   }
 
   p {
-    font-size: 1.2rem;
-    color: #666;
+    font-size: 14px;
+    color: #555;
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3em;
+    line-height: 1em;
   }
 }

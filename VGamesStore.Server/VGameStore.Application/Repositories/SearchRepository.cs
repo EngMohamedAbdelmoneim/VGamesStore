@@ -90,7 +90,6 @@ namespace VGameStore.Application.Repositories
 					g.Description.Contains(query.Keyword) ||
 					g.Developer.Contains(query.Keyword));
 			}
-
 			if (!string.IsNullOrEmpty(query.CategoryId.ToString()))
 			{
 				games = games.Where(g => g.CategoryId == query.CategoryId);

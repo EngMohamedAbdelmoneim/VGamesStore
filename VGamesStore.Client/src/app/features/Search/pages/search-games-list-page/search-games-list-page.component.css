@@ -4,6 +4,12 @@
   .filter-container{
     width: 20%;
     margin-right: 20px;
+    position:sticky;
+    top: 0;
+    left: 0;
+    height: 100vh; /* Full height */
+    overflow-y: auto; /* optional, in case aside content is tall */
+    z-index: 1000;
   }
   .search-list{
     width: 80%;

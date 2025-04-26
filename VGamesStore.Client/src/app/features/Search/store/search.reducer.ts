@@ -1,4 +1,4 @@
-import { Filter } from './../../../core/models/filter';
+import { FilterDto } from '../../../core/models/filter-dto';
 import { createReducer, on } from "@ngrx/store";
 import { Game } from "../../../core/models/game";
 import * as SearchActions from './search.actions';
@@ -21,18 +21,18 @@ export const searchReducer = createReducer(
   on(SearchActions.searchGamesSuccess, (state, { searchedgames }) => ({ ...state, loading: false, searchedGames: searchedgames })),
   on(SearchActions.searchGamesFailure, (state, { error }) => ({ ...state, loading: false, error })),
 
-  // Filter Actions
+  // FilterDto Actions
 )
 
 export const filterReducer = createReducer(
   initialState,
-  on(SearchActions.applyingFilter, (state) => ({ ...state, loading: true })),
-  on(SearchActions.loadFilteredGamesSuccess, (state, { games }) => ({
+  on(SearchActions.applyingFilterDto, (state) => ({ ...state, loading: true })),
+  on(SearchActions.loadFilterDtoedGamesSuccess, (state, { games }) => ({
     ...state,
     loading: false,
     filteredGames: games,
   })),
-  on(SearchActions.loadFilteredGamesFailure, (state, { error }) => ({
+  on(SearchActions.loadFilterDtoedGamesFailure, (state, { error }) => ({
     ...state,
     loading: false,
     error,

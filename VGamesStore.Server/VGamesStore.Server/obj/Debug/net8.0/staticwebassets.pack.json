@@ -1,8 +1,48 @@
 {
   "Files": [
     {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\04590ac5-fc13-4318-a6a1-d2473cb29962.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\04590ac5-fc13-4318-a6a1-d2473cb29962.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\07da4fe3-f2fd-49f0-8331-dfc68c15ee15.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\07da4fe3-f2fd-49f0-8331-dfc68c15ee15.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\084eea08-8c71-4b6b-9eaa-c254ec9aeb68.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\084eea08-8c71-4b6b-9eaa-c254ec9aeb68.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\1358c098-72a1-49ad-b308-8fcb2a23587c.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\1358c098-72a1-49ad-b308-8fcb2a23587c.jpg"
+    },
+    {
       "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\14068002-867c-479b-9ba6-0a49b8a2ed02.jpg",
       "PackagePath": "staticwebassets\\Files\\GameImage\\14068002-867c-479b-9ba6-0a49b8a2ed02.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\143402ac-ad72-4925-ac4a-35ebdf127025.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\143402ac-ad72-4925-ac4a-35ebdf127025.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\1515f479-6296-4897-bb29-46419b5b3b95.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\1515f479-6296-4897-bb29-46419b5b3b95.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\197f1c60-9834-42c7-ae3c-b87f3ecfbe7a.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\197f1c60-9834-42c7-ae3c-b87f3ecfbe7a.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\19a99a78-d651-41d8-b75f-7ea397d20b8b.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\19a99a78-d651-41d8-b75f-7ea397d20b8b.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\1a45737a-2cad-4e54-a74b-9be666a28506.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\1a45737a-2cad-4e54-a74b-9be666a28506.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\1af52cd3-c462-4397-acc0-db85114dc346.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\1af52cd3-c462-4397-acc0-db85114dc346.jpg"
     },
     {
       "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\1b1c3994-a34f-4405-9757-67a7a521d442.jpg",
@@ -13,6 +53,26 @@
       "PackagePath": "staticwebassets\\Files\\GameImage\\1e2c8c57-10b2-481b-b01f-f52eb9f67da0.jpg"
     },
     {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\233588cb-863f-486f-8b3d-2e9b932bcc82.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\233588cb-863f-486f-8b3d-2e9b932bcc82.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\25d71544-9e06-4a54-9ebc-468cae6b6394.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\25d71544-9e06-4a54-9ebc-468cae6b6394.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\2a0ac5f7-c152-40ec-9c99-c8781ad3fb19.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\2a0ac5f7-c152-40ec-9c99-c8781ad3fb19.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\2a7295e4-f17a-4950-9192-7280623aaec9.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\2a7295e4-f17a-4950-9192-7280623aaec9.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\2bc24515-d4d5-4f82-bf04-a111540071f6.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\2bc24515-d4d5-4f82-bf04-a111540071f6.jpg"
+    },
+    {
       "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\2c87f32f-a6e7-4547-83dd-878f50e82cc0.jpg",
       "PackagePath": "staticwebassets\\Files\\GameImage\\2c87f32f-a6e7-4547-83dd-878f50e82cc0.jpg"
     },
@@ -21,24 +81,228 @@
       "PackagePath": "staticwebassets\\Files\\GameImage\\2ec237c6-1dd3-4bfb-8668-01c76cc4f74a.jpg"
     },
     {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\333e4ec7-2596-49f0-94e3-0ca806ef0604.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\333e4ec7-2596-49f0-94e3-0ca806ef0604.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\3646908f-457c-4700-9556-15be0353cc8f.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\3646908f-457c-4700-9556-15be0353cc8f.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\3e4d262f-0ddf-4bd5-aff9-0a7bb2b119a9.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\3e4d262f-0ddf-4bd5-aff9-0a7bb2b119a9.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\3faa3c5b-b5cf-4e4d-83f5-eeccc8ca8021.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\3faa3c5b-b5cf-4e4d-83f5-eeccc8ca8021.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\4318369d-a3ce-4d40-8d3c-6bfd00fe9e5b.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\4318369d-a3ce-4d40-8d3c-6bfd00fe9e5b.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\46013c95-21f2-4c0c-aaf5-6a180031c53d.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\46013c95-21f2-4c0c-aaf5-6a180031c53d.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\4ac2dfaa-795c-4044-9db4-ec8297f27152.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\4ac2dfaa-795c-4044-9db4-ec8297f27152.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\4b236cee-8da1-483e-8910-d1270ad8517b.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\4b236cee-8da1-483e-8910-d1270ad8517b.jpg"
+    },
+    {
       "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\4e023f86-bd58-4cb2-b2a6-69d8af331852.jpg",
       "PackagePath": "staticwebassets\\Files\\GameImage\\4e023f86-bd58-4cb2-b2a6-69d8af331852.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\4f805063-8468-4919-927b-762354bf328f.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\4f805063-8468-4919-927b-762354bf328f.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\58c7ac8e-ba1e-41c1-b1dc-a8a236627cf0.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\58c7ac8e-ba1e-41c1-b1dc-a8a236627cf0.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\5ef3cc61-1a7b-431b-9bbe-9887c97d1483.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\5ef3cc61-1a7b-431b-9bbe-9887c97d1483.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\6168888b-1a37-4fda-a09e-d7b9962249d5.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\6168888b-1a37-4fda-a09e-d7b9962249d5.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\63838840-9ae0-4b34-a864-f0d238306fb2.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\63838840-9ae0-4b34-a864-f0d238306fb2.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\6639fdd7-7588-4d2b-963f-3bc34e451a05.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\6639fdd7-7588-4d2b-963f-3bc34e451a05.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\6dd5b654-5c10-48c8-8593-72587b411f6a.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\6dd5b654-5c10-48c8-8593-72587b411f6a.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\6fd06a06-44d8-46b3-8d97-194ca2dd5552.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\6fd06a06-44d8-46b3-8d97-194ca2dd5552.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\6fd7410d-5b62-45b0-8c56-03a83fae8ee1.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\6fd7410d-5b62-45b0-8c56-03a83fae8ee1.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\81145c34-e610-45c3-9b06-4149d5cb0f99.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\81145c34-e610-45c3-9b06-4149d5cb0f99.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\81da7044-f8f4-4e05-ac79-16458fe923aa.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\81da7044-f8f4-4e05-ac79-16458fe923aa.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\840d7704-4158-48cd-9795-237757e429b0.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\840d7704-4158-48cd-9795-237757e429b0.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\85b4e24d-61e4-4e06-852a-9a25deb645dd.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\85b4e24d-61e4-4e06-852a-9a25deb645dd.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\8aea3f21-3750-410d-919a-dbd64489471e.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\8aea3f21-3750-410d-919a-dbd64489471e.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\8d1c8951-a546-4799-92bb-b0463f5a3005.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\8d1c8951-a546-4799-92bb-b0463f5a3005.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\8fa17f65-ce1a-4fa7-b3cf-497a7fd2f403.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\8fa17f65-ce1a-4fa7-b3cf-497a7fd2f403.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\903304e4-576a-4dd3-8c0e-85b34a74c390.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\903304e4-576a-4dd3-8c0e-85b34a74c390.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\922a7929-cd7b-4d7b-9f88-75b0eae2f143.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\922a7929-cd7b-4d7b-9f88-75b0eae2f143.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\95b03923-3d08-459c-b179-3f76044a57f1.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\95b03923-3d08-459c-b179-3f76044a57f1.jpg"
     },
     {
       "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\9768788e-402b-4783-bc82-7686af6accd6.jpg",
       "PackagePath": "staticwebassets\\Files\\GameImage\\9768788e-402b-4783-bc82-7686af6accd6.jpg"
     },
     {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\98279418-b043-427b-b6ad-e3d2b73809a4.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\98279418-b043-427b-b6ad-e3d2b73809a4.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\9d25098a-a39c-4baa-9331-82fe7f1665db.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\9d25098a-a39c-4baa-9331-82fe7f1665db.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\9d79dc73-d3c9-479d-abed-1410da26e001.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\9d79dc73-d3c9-479d-abed-1410da26e001.jpg"
+    },
+    {
       "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\9dd91fd0-75af-476f-a35c-d29f023aa8fa.jpg",
       "PackagePath": "staticwebassets\\Files\\GameImage\\9dd91fd0-75af-476f-a35c-d29f023aa8fa.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\9e73e1c4-dc93-47ea-b33e-a9c85e799b2e.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\9e73e1c4-dc93-47ea-b33e-a9c85e799b2e.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\a1c1664c-f55b-4bc3-9b00-23a0e1883e87.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\a1c1664c-f55b-4bc3-9b00-23a0e1883e87.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\a241efd6-385b-407c-ab98-82debb1168ec.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\a241efd6-385b-407c-ab98-82debb1168ec.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\a375e34a-d25c-478d-a4bd-0e3f37bcc2b7.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\a375e34a-d25c-478d-a4bd-0e3f37bcc2b7.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\a6fb4578-d965-40d9-9d23-0f411d53a9de.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\a6fb4578-d965-40d9-9d23-0f411d53a9de.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\a77432ac-bad0-42cc-a114-a5f51896c4f7.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\a77432ac-bad0-42cc-a114-a5f51896c4f7.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\aabc7444-84b8-4090-b807-0df59a8f936c.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\aabc7444-84b8-4090-b807-0df59a8f936c.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\b1401c5f-98c6-4711-920e-e63d49020ec9.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\b1401c5f-98c6-4711-920e-e63d49020ec9.jpg"
     },
     {
       "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\b203c308-4e8a-4cfc-bbc0-693653850177.jpg",
       "PackagePath": "staticwebassets\\Files\\GameImage\\b203c308-4e8a-4cfc-bbc0-693653850177.jpg"
     },
     {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\b3ea96e2-caee-4ba6-acc9-a646360b1ca1.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\b3ea96e2-caee-4ba6-acc9-a646360b1ca1.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\c4ae16e3-205d-40ac-96ef-39ef9d8da632.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\c4ae16e3-205d-40ac-96ef-39ef9d8da632.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\c6fede0d-5937-4506-8f16-03eb68440b8d.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\c6fede0d-5937-4506-8f16-03eb68440b8d.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\c7167044-d999-4cbf-b614-1b2cdd5024c5.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\c7167044-d999-4cbf-b614-1b2cdd5024c5.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\c84e709a-be41-4d43-8dce-49c24eadd994.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\c84e709a-be41-4d43-8dce-49c24eadd994.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\d0e00fd4-41b3-45ea-98db-5180d27d3214.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\d0e00fd4-41b3-45ea-98db-5180d27d3214.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\dd42af30-6d4d-4c1d-96b2-a46d4a796dfc.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\dd42af30-6d4d-4c1d-96b2-a46d4a796dfc.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\dddc8cdc-cffe-45ae-acaa-4e9ba4aa58a7.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\dddc8cdc-cffe-45ae-acaa-4e9ba4aa58a7.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\de442352-c688-4c03-892f-09446b24809e.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\de442352-c688-4c03-892f-09446b24809e.jpg"
+    },
+    {
       "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\df662393-6d22-4747-be44-02109541275d.jpg",
       "PackagePath": "staticwebassets\\Files\\GameImage\\df662393-6d22-4747-be44-02109541275d.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\e63417fb-5072-413e-81ac-26b40ddd6828.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\e63417fb-5072-413e-81ac-26b40ddd6828.jpg"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\f445eec5-7ce4-4078-8bca-74bb0d1707c5.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\f445eec5-7ce4-4078-8bca-74bb0d1707c5.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\f6268272-ded9-4048-8bbd-3d983d6bb0e3.webp",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\f6268272-ded9-4048-8bbd-3d983d6bb0e3.webp"
+    },
+    {
+      "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\f6cd3f45-439f-415a-834c-c577423d6565.jpg",
+      "PackagePath": "staticwebassets\\Files\\GameImage\\f6cd3f45-439f-415a-834c-c577423d6565.jpg"
     },
     {
       "Id": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\wwwroot\\Files\\GameImage\\f842c0be-01f5-4217-89c5-744801200bfa.jpg",

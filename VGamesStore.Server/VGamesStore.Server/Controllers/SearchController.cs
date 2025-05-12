@@ -2,6 +2,7 @@
 using VGameStore.Application.DTOs;
 using VGameStore.Application.Interfaces;
 using VGameStore.Application.Services;
+using static VGameStore.Core.Specifications.GameSearchCriteria;
 
 namespace VGamesStore.Api.Controllers
 {
@@ -20,10 +21,10 @@ namespace VGamesStore.Api.Controllers
 			var games = await _searchService.SearchGamesAsync(query);
 			return Ok(games);
 		}
-		[HttpGet("search/category")]
-		public async Task<IActionResult> SearchGamesByCategory([FromQuery] string category)
+		[HttpGet("search/genre")]
+		public async Task<IActionResult> SearchGamesByGenre([FromQuery] string genre)
 		{
-			var games = await _searchService.SearchGamesByCategoryAsync(category);
+			var games = await _searchService.SearchGamesByGenreAsync(genre);
 			return Ok(games);
 		}
 		[HttpGet("sort/ascending")]

@@ -12,16 +12,21 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-game-list',
-  imports: [CommonModule, GameCardComponent,FormsModule],
+  imports: [CommonModule, GameCardComponent, FormsModule],
   templateUrl: './game-list.component.html',
   styleUrls: ['./game-list.component.css']
 })
 export class GameListComponent implements OnInit {
-    private store = inject(Store);
-    private router = inject(Router);
-    searchText: string = '';
-    textArray = 'GAMES LIST'.split('');
-    arrows = Array(3); // Three arrows
+  private store = inject(Store);
+  private router = inject(Router);
+  searchText: string = '';
+  textArray = 'GAMES LIST'.split('');
+  arrows = Array(3); // Three arrows
+
+  vVisible = false;
+  vHidden = false;
+  logoVisible = false;
+
 
   // ✅ Inject the store using inject() function
   games$: Observable<Game[]> = this.store.select(selectAllGames);
@@ -31,9 +36,22 @@ export class GameListComponent implements OnInit {
   ngOnInit(): void {
     this.store.dispatch(GameActions.loadGames());
     console.log(this.games$.forEach((game) => console.log(game))); // ✅ Log the games to the console
-    // ✅ Dispatch action to load games
+
+     setTimeout(() => {
+      this.vVisible = true;
+
+      // Step 2: Hide V after spin
+      setTimeout(() => {
+        this.vHidden = true;
+
+        // Step 3: Show full logo
+        setTimeout(() => {
+          this.logoVisible = true;
+        }, 500);
+      }, 1500); // Time V is visible before hiding
+    }, 300);
   }
-  getFormattedPrice(Url:any | null): any {
+  getFormattedPrice(Url: any | null): any {
     return imagePath(Url);
   }
   goToSearch() {

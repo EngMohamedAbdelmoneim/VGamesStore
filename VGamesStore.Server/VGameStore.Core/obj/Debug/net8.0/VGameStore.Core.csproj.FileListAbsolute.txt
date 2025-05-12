@@ -21,3 +21,4 @@ D:\VGamesStore\VGamesStore.Server\VGameStore.Core\obj\Debug\net8.0\VGameStore.Co
 D:\VGamesStore\VGamesStore.Server\VGameStore.Core\obj\Debug\net8.0\refint\VGameStore.Core.dll
 D:\VGamesStore\VGamesStore.Server\VGameStore.Core\obj\Debug\net8.0\VGameStore.Core.pdb
 D:\VGamesStore\VGamesStore.Server\VGameStore.Core\obj\Debug\net8.0\ref\VGameStore.Core.dll
+D:\VGamesStore\VGamesStore.Server\VGameStore.Core\obj\Debug\net8.0\VGameStore.Core.csproj.AssemblyReference.cache

@@ -1,4 +1,4 @@
-import { Category } from './../models/category';
+import { Genre } from '../models/genre';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
@@ -12,12 +12,12 @@ export class CategoryService {
 
   constructor(private http: HttpClient) {}
 
-  getCategories(): Observable<Category[]>{
-    return this.http.get<Category[]>(this.apiUrl + '/GetAllCategory'); // ✅ Ensure the correct endpoint is used
+  getCategories(): Observable<Genre[]>{
+    return this.http.get<Genre[]>(this.apiUrl + '/GetAllCategory'); // ✅ Ensure the correct endpoint is used
   }
-  getCategoryById(id: number) : Observable<Category>{
+  getCategoryById(id: number) : Observable<Genre>{
     console.log('Fetching category with ID:', id); // ✅ Log the category ID to the console
-    return this.http.get<Category>(`${this.apiUrl}/GetCategoryById/${id}`);
+    return this.http.get<Genre>(`${this.apiUrl}/GetCategoryById/${id}`);
   }
 
 }

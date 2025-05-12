@@ -4,7 +4,7 @@ using VGameStore.Application.Mappings;
 using VGameStore.Application.Repositories;
 using VGameStore.Application.Services;
 using VGameStore.Infrastructure.Persistence;
- using VGameStore.Persistence;
+using Microsoft.Extensions.Caching.StackExchangeRedis; // Add this namespace for AddStackExchangeRedisCache
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,13 +36,23 @@ builder.Services.AddScoped<ISearchRepository, SearchRepository>();
 
 // Register the services
 builder.Services.AddScoped<IGameService, GameService>();
-builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IGenreService, GenreService>();
 builder.Services.AddScoped<ISearchService, SearchService>();
 
 
 // Add AutoMapper
 builder.Services.AddAutoMapper(typeof(GameProfile));
-builder.Services.AddAutoMapper(typeof(CategoryProfile));
+builder.Services.AddAutoMapper(typeof(GenreProfile));
+
+
+// Add Redis services
+builder.Services.AddScoped<ICartService, RedisCartService>();
+//builder.Services.AddScoped<IWishlistService, RedisWishlistService>();
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+	options.Configuration = builder.Configuration.GetConnectionString("Redis");
+});
+
 
 var app = builder.Build();
 

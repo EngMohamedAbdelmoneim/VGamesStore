@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using VGameStore.Application.DTOs;
 using VGameStore.Application.Interfaces;
 using VGameStore.Core.Entities;
+using static VGameStore.Core.Specifications.GameSearchCriteria;
 
 namespace VGameStore.Application.Services
 {
@@ -35,9 +36,9 @@ namespace VGameStore.Application.Services
 			return _mapper.Map<IReadOnlyList<GameDto>>(searchedGames);
 		}
 
-		public async Task<IReadOnlyList<GameDto>> SearchGamesByCategoryAsync(string category)
+		public async Task<IReadOnlyList<GameDto>> SearchGamesByGenreAsync(string genre)
 		{
-			var searchedGames = await _searchRepository.SearchGamesByCategoryAsync(category);
+			var searchedGames = await _searchRepository.SearchGamesByGenreAsync(genre);
 			return _mapper.Map<IReadOnlyList<GameDto>>(searchedGames);
 		}
 

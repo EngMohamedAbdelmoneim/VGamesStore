@@ -1,26 +1,91 @@
-.game-details {
-  max-width: 600px;
-  margin: 20px auto;
-  text-align: center;
+.game-details-container {
+  max-width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
 
-  img {
-    width: 100%;
+  .game-img-container {
+    width: fit-content;
+    height: fit-content;
     border-radius: 10px;
-   }
-
-  h1 {
-    font-size: 2rem;
-    color: #333;
   }
 
-  p {
-    font-size: 14px;
-    color: #555;
-    display: block;
-    text-overflow: ellipsis;
-    word-wrap: break-word;
-    overflow: hidden;
-    max-height: 3em;
-    line-height: 1em;
+  .game-info {
+    width: 30%;
+    text-align: left;
+    vertical-align: top;
+
+    h1 {
+      font-size: 2rem;
+      color: var(--text-color-primary);
+    }
+
+    p {
+      font-size: 14px;
+      color: #555;
+      display: block;
+      text-overflow: ellipsis;
+      word-wrap: break-word;
+      overflow: hidden;
+      max-height: 3em;
+      line-height: 1em;
+    }
+
+    .genres-container {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+
+      .genre {
+        background-color: var(--secondary-color-withOP);
+        color: var(--text-color-primary);
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+      .genre:hover {
+        background-color: var(--secondary-color);
+        color: var(--text-color-secondary);
+      }
+    }
   }
+}
+
+.slider-container {
+  width: 70%;
+  margin: 0 20px;
+  text-align: start;
+}
+
+.main-image {
+  width: 100%;
+  height: 400px;
+  object-fit: fill;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.thumbnail-list {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 70px;
+  object-fit: fill;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  transition: border 0.3s;
+}
+
+.thumbnail.active,
+.thumbnail:hover {
+  border: 2px solid #007BFF;
 }

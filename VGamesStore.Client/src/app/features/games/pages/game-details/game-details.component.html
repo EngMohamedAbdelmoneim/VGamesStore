@@ -1,9 +1,33 @@
 <div class="game-details" *ngIf="game$ | async as game">
-  <img [src]="getFormattedPrice(game.imageUrl)" alt="{{ game.title }}">
-  <h1>{{ game.title }}</h1>
-  <h3>Developed by: {{ game.developer }}</h3>
-  <p><strong>Type:</strong> {{ game.type }}</p>
-  <p><strong>Price:</strong> {{ game.price | currency }}</p>
-  <p><strong>Release Date:</strong> {{ game.releaseDate | date }}</p>
-  <p>{{ game.description }}</p>
+  <div class="game-details-container" >
+    <div class="game-img-container">
+      <img [src]="getImageUrl(game.imageUrl)" alt="{{ game.title }}">
+    </div>
+    <div class="game-info">
+      <h1>{{ game.title }}</h1>
+      <p>Developed by: {{ game.developer }}</p>
+      <p><strong>Type:</strong> {{ game.type }}</p>
+      <p><strong>Price:</strong> {{ game.price | currency }}</p>
+      <p><strong>Release Date:</strong> {{ game.releaseDate | date }}</p>
+      <p style="color:var(--text-color-secondary);">Game Genres:</p>
+      <div class="genres-container" >
+        <p *ngFor="let genre of game.genres; let i = index" class="genre">{{genre}}</p>
+      </div>
+      
+      <p>{{ game.description }}</p>
+    </div>
+    <div class="slider-container">
+      <img [src]="getImageUrl(game.imagesUrls![currentImageIndex])" class="main-image" alt="Main Image" />
+      <div class="thumbnail-list">
+        <img
+          *ngFor="let img of game.imagesUrls; let i = index"
+          [src]="getImageUrl(img)"
+          class="thumbnail"
+          [class.active]="i === currentImageIndex"
+          (click)="changeImage(i)"
+          alt="Thumbnail"
+        />
+      </div>
+    </div>
+  </div>
 </div>

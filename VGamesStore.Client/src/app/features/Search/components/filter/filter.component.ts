@@ -1,4 +1,4 @@
-import { Category } from './../../../../core/models/category';
+import { Genre } from '../../../../core/models/genre';
 import { Component, inject, Input, OnInit } from '@angular/core';
 import { FilterDto } from '../../../../core/models/filter-dto';
 import { applyingFilterDto } from '../../store/search.actions';
@@ -27,7 +27,7 @@ export class FilterDtoComponent implements OnInit {
   private store = inject(Store);
   private CategoryService = inject(CategoryService);
 
-  Categories: Category[] | null = null;
+  Categories: Genre[] | null = null;
 
   ngOnInit(): void {
     this.CategoryService.getCategories().subscribe({

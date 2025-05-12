@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using VGameStore.Application.DTOs;
 using VGameStore.Core.Entities;
+using VGameStore.Core.Specifications;
 
 namespace VGameStore.Application.Interfaces
 {
@@ -12,9 +13,11 @@ namespace VGameStore.Application.Interfaces
     {
 			Task<IReadOnlyList<GameDto>> GetAllGamesAsync();
 			Task<GameDto?> GetGameByIdAsync(int id);
-			Task<GameDto> CreateGameAsync(CreateGameDto game);
+			Task<bool> CreateGameAsync(CreateGameDto game);
 			Task<bool> UpdateGameAsync(int id, UpdateGameDto gameDto);
 			Task<bool> DeleteGameAsync(int id);
 
+			Task<GameDtoSpec> GetByIdWithSpecAsync(BaseSpecification<Game> spec);
+			Task<IReadOnlyList<GameDtoSpec>> GetAllWithSpecAsync(BaseSpecification<Game> spec);
 	}
 }

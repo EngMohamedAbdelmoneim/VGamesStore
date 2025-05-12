@@ -1,7 +1,7 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Store } from '@ngrx/store';
-import { Observable } from 'rxjs';
+import { interval, Observable, Subscription } from 'rxjs';
 import { Game } from '../../../../core/models/game';
 import { selectGameDetails, selectGameDetailsError, selectGameDetailsLoading } from '../../store/game.selectors';
 import { loadGameDetails } from '../../store/game.actions';
@@ -19,22 +19,48 @@ export class GameDetailsComponent implements OnInit {
 
   private store = inject(Store);
   private route = inject(ActivatedRoute);
+  // This variable is used to store the current index of the image
+  currentImageIndex = 0;
+  private intervalSub!: Subscription;
 
+  // This variable is used to store the game details
   game$: Observable<Game | null> = this.store.select(selectGameDetails);;
   loading$: Observable<boolean> = this.store.select(selectGameDetailsLoading);
   error$: Observable<string | null> = this.store.select(selectGameDetailsError);
   ngOnInit() {
 
     const gameId = this.route.snapshot.paramMap.get('id');
-    console.log('Game ID from route:', gameId);
     if (gameId && !isNaN(+gameId)) {
       this.store.dispatch(loadGameDetails({ id: +gameId }));
-      console.log('Game Load' , this.game$);
-    } else {
-      console.error('Invalid game ID:', gameId);
+      this.game$.subscribe(game => {
+        if (game?.imagesUrls?.length) {
+          this.startAutoIndex(game.imagesUrls.length);
+        }
+      });
     }
   }
-  getFormattedPrice(Url:any | null): any {
-      return imagePath(Url);
+
+  // This function updates the index over time and returns the current index
+  startAutoIndex(length: number): void {
+    if (this.intervalSub) {
+      this.intervalSub.unsubscribe();
     }
+    this.intervalSub = interval(5000).subscribe(() => {
+      this.currentImageIndex = (this.currentImageIndex + 1) % length;
+    });
+  }
+  // Cleanup
+  ngOnDestroy(): void {
+    if (this.intervalSub) {
+      this.intervalSub.unsubscribe();
+    }
+  }
+  // This function is used to get the image url
+  getImageUrl(Url: any | null): any {
+    return imagePath(Url);
+  }
+  // This function is used to change the image index
+  changeImage(index: number): void {
+    this.currentImageIndex = index;
+  }
 }

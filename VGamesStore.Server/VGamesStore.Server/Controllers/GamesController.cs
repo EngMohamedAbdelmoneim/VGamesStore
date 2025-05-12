@@ -14,24 +14,6 @@ namespace VGamesStore.Api.Controllers
 		{
 			_gameService = gameService;
 		}
-
-		// ✅ GET all games
-		[HttpGet]
-		public async Task<IActionResult> GetAllGames()
-		{
-			var games = await _gameService.GetAllGamesAsync();
-			return Ok(games);
-		}
-
-		// ✅ GET game by ID
-		[HttpGet("{id}")]
-		public async Task<IActionResult> GetGameById(int id)
-		{
-			var game = await _gameService.GetGameByIdAsync(id);
-			if (game == null) return NotFound();
-			return Ok(game);
-		}
-
 		// ✅ CREATE a new game
 		[HttpPost]
 		public async Task<IActionResult> CreateGame([FromForm] CreateGameDto game)
@@ -40,7 +22,7 @@ namespace VGamesStore.Api.Controllers
 			if (game.File == null || game.File.Length == 0)
 				return BadRequest("Image file is required.");
 			var gameResult = await _gameService.CreateGameAsync(game);
-			return CreatedAtAction(nameof(GetGameById), new { id = gameResult.Id }, gameResult);
+			return Ok();
 		}
 
 		// ✅ UPDATE an existing game
@@ -60,6 +42,21 @@ namespace VGamesStore.Api.Controllers
 			var result = await _gameService.DeleteGameAsync(id);
 			if (!result) return NotFound();
 			return NoContent();
+		}
+		[HttpGet]
+		public async Task<IActionResult> GetAllGames()
+		{
+			var spec = new GameWithGenresAndImagesSpec();
+			var games = await _gameService.GetAllWithSpecAsync(spec);
+			return Ok(games);
+		}	
+
+		[HttpGet("{id}")]
+		public async Task<IActionResult> GetGameById(int id)
+		{
+			var spec = new GameWithGenresAndImagesSpec(id);
+			var game = await _gameService.GetByIdWithSpecAsync(spec);
+			return game == null ? NotFound() : Ok(game);
 		}
 	}
 

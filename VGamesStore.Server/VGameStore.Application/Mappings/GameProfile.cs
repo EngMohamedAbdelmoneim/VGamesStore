@@ -13,7 +13,14 @@ namespace VGameStore.Application.Mappings
 	{
 		public GameProfile()
 		{
-			CreateMap<Game, GameDto>();
+			CreateMap<Game, GameDto>()
+				.ForMember(dest => dest.Genres,
+			   opt => opt.MapFrom(src => src.GameGenres.Select(g => g.Genre.Name).ToList()));
+			CreateMap<Game, GameDtoSpec>()
+		   .ForMember(dest => dest.ImagesUrls, opt => opt.MapFrom(src =>
+			   src.Images.Select(img => img.ImageUrl)))
+		   .ForMember(dest => dest.Genres, opt => opt.MapFrom(src =>
+			   src.GameGenres.Select(gg => gg.Genre.Name)));
 			CreateMap<CreateGameDto, Game>();
 			CreateMap<UpdateGameDto, Game>();
 		}

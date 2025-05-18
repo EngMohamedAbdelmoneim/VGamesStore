@@ -9,6 +9,7 @@
       placeholder="Search"
       aria-label="Search"
       aria-describedby="addon-wrapping"
+      [(ngModel)]="searchText"
       (keyup.enter)="goToSearch()"
     />
     <span

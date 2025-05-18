@@ -1,5 +1,5 @@
 import { Component, inject, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Store } from '@ngrx/store';
 import { interval, Observable, Subscription } from 'rxjs';
 import { Game } from '../../../../core/models/game';
@@ -7,6 +7,7 @@ import { selectGameDetails, selectGameDetailsError, selectGameDetailsLoading } f
 import { loadGameDetails } from '../../store/game.actions';
 import { CommonModule } from '@angular/common';
 import { imagePath } from '../../../../utils/imagePath';
+import { searchGamesByGenresName } from '../../../Search/store/search.actions';
 
 
 @Component({
@@ -19,6 +20,8 @@ export class GameDetailsComponent implements OnInit {
 
   private store = inject(Store);
   private route = inject(ActivatedRoute);
+  private router = inject(Router);
+
   // This variable is used to store the current index of the image
   currentImageIndex = 0;
   private intervalSub!: Subscription;
@@ -63,4 +66,12 @@ export class GameDetailsComponent implements OnInit {
   changeImage(index: number): void {
     this.currentImageIndex = index;
   }
+  goToSearch(genreName :string) {
+
+    if (genreName && genreName.trim()) {
+      this.store.dispatch(searchGamesByGenresName({ genreName: genreName }));
+      this.router.navigate(['/search/genre', genreName]);
+    }
+  }
+
 }

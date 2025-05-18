@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using VGameStore.Application.Interfaces;
 using VGameStore.Core.Entities;
+using VGameStore.Infrastructure.Migrations;
 using VGameStore.Infrastructure.Persistence;
 using static VGameStore.Core.Specifications.GameSearchCriteria;
 
@@ -32,7 +33,7 @@ namespace VGameStore.Application.Repositories
 				games = games.Where(g =>
 					g.Title.Contains(query.Keyword) ||
 				g.Description.Contains(query.Keyword) ||
-					g.Developer.Contains(query.Keyword));
+					g.Developer.Contains(query.Keyword));//
 			}
 
 			return await games.ToListAsync();
@@ -40,7 +41,7 @@ namespace VGameStore.Application.Repositories
 		public async Task<IReadOnlyList<Game>> SearchGamesByGenreAsync(string genre)
 		{
 			var games = _context.Games.AsQueryable();
-
+			games = games.Where(g => g.GameGenres.Any(g => g.Genre.Name == genre ));
 			return await games.ToListAsync();
 		}
 		// Sort games
@@ -89,8 +90,12 @@ namespace VGameStore.Application.Repositories
 			{
 				games = games.Where(g => g.Developer == query.Developer);
 			}
+			if (!string.IsNullOrEmpty(query.GenreName))
+			{
+				games = games.Where(g => g.GameGenres.Any(g => g.Genre.Name == query.GenreName));
+			}
 			//Price 
-			if (query.MinPrice.HasValue)
+			if (query.MinPrice.HasValue)	
 			{
 				games = games.Where(g => g.Price >= query.MinPrice.Value);
 			}

@@ -48,6 +48,11 @@ namespace VGameStore.Application.Services
 			return _mapper.Map<IReadOnlyList<GameDto>>(sortedGames);
 		}
 
+		public Task<IReadOnlyList<GameDto>> SortGamesByGenreNameAsync(string genre)
+		{
+			throw new NotImplementedException();
+		}
+
 		public async Task<IReadOnlyList<GameDto>> SortGamesByPriceAsync(int? minPrice, int? maxPrice)
 		{
 			var sortedGames = await _searchRepository.SortGamesByPriceAsync(minPrice, maxPrice);

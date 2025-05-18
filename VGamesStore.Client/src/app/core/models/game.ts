@@ -10,5 +10,5 @@ export interface Game {
     releaseDate: Date;
     imageUrl?: string | null;
     imagesUrls?: string[] | null;
-    genres?:Genre[] | null;
+    genres?:string[] | null;
   }

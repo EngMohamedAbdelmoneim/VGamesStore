@@ -6,9 +6,9 @@
   </div>
 
   <div class="search-category-container">
-    <select class="form-select" required [(ngModel)]="filter.categoryId">
+    <select class="form-select" required [(ngModel)]="filter.genreName">
       <option [ngValue]="null" [disabled]="true">-- Select Genres --</option>
-      <option *ngFor="let Category of Categories" [value]="Category.id">{{Category.name}}</option>
+      <option *ngFor="let Category of Categories" [value]="Category.name">{{Category.name}}</option>
     </select>
   </div>
 

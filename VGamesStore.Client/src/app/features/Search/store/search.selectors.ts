@@ -1,16 +1,24 @@
-import { createFeatureSelector, createSelector } from "@ngrx/store";
-import { SearchState } from "./search.reducer";
-
+import { createFeatureSelector, createSelector } from '@ngrx/store';
+import { SearchState } from './search.reducer';
 
 export const selectSearchState = createFeatureSelector<SearchState>('search');
-export const selectSearchedGames = createSelector(selectSearchState, (state : SearchState) => state.searchedGames);
-export const selectLoading = createSelector(selectSearchState, (state : SearchState) => state.loading);
-export const selectError = createSelector(selectSearchState, (state : SearchState) => state.error);
 
-
-export const selectFilterDtoedGames = createSelector(
+export const selectSearchedGames = createSelector(
   selectSearchState,
-  (state: SearchState) => state.searchedGames
+  (state) => state.searchedGames
 );
 
+export const selectSearchLoading = createSelector(
+  selectSearchState,
+  (state) => state.loading
+);
 
+export const selectSearchError = createSelector(
+  selectSearchState,
+  (state) => state.error
+);
+
+export const selectSearchOrigin = createSelector(
+  selectSearchState,
+  (state) => state.origin
+);

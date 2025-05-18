@@ -1,40 +1,39 @@
-import { FilterDto } from '../../../core/models/filter-dto';
-import { createReducer, on } from "@ngrx/store";
-import { Game } from "../../../core/models/game";
+import { createReducer, on } from '@ngrx/store';
 import * as SearchActions from './search.actions';
+import { Game } from '../../../core/models/game';
 
 export interface SearchState {
   searchedGames: Game[];
   loading: boolean;
   error: string | null;
+  origin: 'keyword' | 'genre' | 'filter' | null;
 }
 
 const initialState: SearchState = {
   searchedGames: [],
   loading: false,
-  error: null
+  error: null,
+  origin: null
 };
 
 export const searchReducer = createReducer(
   initialState,
-  on(SearchActions.searchGames, state => ({ ...state, loading: true })),
-  on(SearchActions.searchGamesSuccess, (state, { searchedgames }) => ({ ...state, loading: false, searchedGames: searchedgames })),
-  on(SearchActions.searchGamesFailure, (state, { error }) => ({ ...state, loading: false, error })),
-
-  // FilterDto Actions
-)
-
-export const filterReducer = createReducer(
-  initialState,
-  on(SearchActions.applyingFilterDto, (state) => ({ ...state, loading: true })),
-  on(SearchActions.loadFilterDtoedGamesSuccess, (state, { games }) => ({
+  on(
+    SearchActions.searchGames,
+    SearchActions.searchGamesByGenresName,
+    SearchActions.applyingFilterDto,
+    (state) => ({ ...state, loading: true, error: null })
+  ),
+  on(SearchActions.searchGamesSuccess, (state, { searchedgames, origin }) => ({
     ...state,
+    searchedGames: searchedgames,
     loading: false,
-    filteredGames: games,
+    origin,
+    error: null
   })),
-  on(SearchActions.loadFilterDtoedGamesFailure, (state, { error }) => ({
+  on(SearchActions.searchGamesFailure, (state, { error }) => ({
     ...state,
     loading: false,
-    error,
+    error
   }))
 );

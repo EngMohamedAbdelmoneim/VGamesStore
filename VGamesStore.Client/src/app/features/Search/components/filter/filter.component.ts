@@ -4,12 +4,13 @@ import { FilterDto } from '../../../../core/models/filter-dto';
 import { applyingFilterDto } from '../../store/search.actions';
 import { Store } from '@ngrx/store';
 import { FormsModule } from '@angular/forms';
-import { CategoryService } from '../../../../core/services/category.service';
+import { GenreService } from '../../../../core/services/genre.service';
 import { CommonModule } from '@angular/common';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-filter',
-  imports: [FormsModule,CommonModule],
+  imports: [FormsModule, CommonModule],
   templateUrl: './filter.component.html',
   styleUrl: './filter.component.css'
 })
@@ -17,7 +18,7 @@ export class FilterDtoComponent implements OnInit {
 
   filter: FilterDto = {
     keyword: null,
-    categoryId: null,
+    genreName: null,
     minPrice: null,
     maxPrice: null,
     developer: null,
@@ -25,12 +26,13 @@ export class FilterDtoComponent implements OnInit {
     ascending: true
   };
   private store = inject(Store);
-  private CategoryService = inject(CategoryService);
+  private router = inject(Router);
+  private CategoryService = inject(GenreService);
 
   Categories: Genre[] | null = null;
 
   ngOnInit(): void {
-    this.CategoryService.getCategories().subscribe({
+    this.CategoryService.getGenres().subscribe({
       next: (categories) => {
         this.Categories = categories;
       },
@@ -41,13 +43,14 @@ export class FilterDtoComponent implements OnInit {
   }
 
   onFilterDtoChange(updatedFilterDtos: FilterDto) {
-    this.store.dispatch(applyingFilterDto({ filter: updatedFilterDtos }));
-    this.reset()
+    this.router.navigate(['/search/filter'], {
+      queryParams: updatedFilterDtos
+    });
   }
   reset() {
     this.filter = {
       keyword: null,
-      categoryId: null,
+      genreName: null,
       minPrice: null,
       maxPrice: null,
       developer: null,

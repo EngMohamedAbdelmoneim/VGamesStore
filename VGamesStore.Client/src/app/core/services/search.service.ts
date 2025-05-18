@@ -13,7 +13,9 @@ export class SearchService {
   searchGames(searchKeyWord: string) {
     return this.http.get<Game[]>(`${this.apiUrl}/SearchGames/search?Keyword=${searchKeyWord}`);
   }
-
+  searchGamesByGenresName(genreName: string) {
+    return this.http.get<Game[]>(`${this.apiUrl}/SearchGamesByGenre/search/genre?genre=${genreName}`);
+  }
   filterGames(query : FilterDto) {
     let params = new HttpParams();
 

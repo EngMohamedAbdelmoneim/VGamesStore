@@ -4,11 +4,12 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
 import { DomSanitizer } from '@angular/platform-browser';
 import { Router, RouterLink, RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [RouterModule,MatToolbarModule, MatButtonModule, MatIconModule,RouterLink],
+  imports: [RouterModule,MatToolbarModule, MatButtonModule, FormsModule,MatIconModule,RouterLink],
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
 })
@@ -24,7 +25,7 @@ export class NavbarComponent {
   }
   goToSearch() {
     if (this.searchText && this.searchText.trim()) {
-      this.router.navigate(['/search', this.searchText]);
+      this.router.navigate(['/search/normal',this.searchText]);
     }
   }
 }

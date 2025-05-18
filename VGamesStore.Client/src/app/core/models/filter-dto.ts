@@ -1,6 +1,6 @@
 export interface FilterDto {
   keyword : string | null,
-  categoryId : number | null,
+  genreName : string | null,
   minPrice : number | null,
   maxPrice : number | null,
   developer : string | null,

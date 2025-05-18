@@ -11,9 +11,9 @@
       <p><strong>Release Date:</strong> {{ game.releaseDate | date }}</p>
       <p style="color:var(--text-color-secondary);">Game Genres:</p>
       <div class="genres-container" >
-        <p *ngFor="let genre of game.genres; let i = index" class="genre">{{genre}}</p>
+        <p *ngFor="let genre of game.genres; let i = index" class="genre" (click)="goToSearch(genre)">{{genre}}</p>
       </div>
-      
+
       <p>{{ game.description }}</p>
     </div>
     <div class="slider-container">

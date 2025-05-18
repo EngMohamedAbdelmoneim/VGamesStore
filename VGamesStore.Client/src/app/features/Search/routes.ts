@@ -2,5 +2,11 @@ import { SearchGamesListPageComponent } from './pages/search-games-list-page/sea
 import { Routes } from "@angular/router";
 
 export const Search_ROUTES: Routes = [
-  { path: ':keyword', component: SearchGamesListPageComponent },
+  { path: 'normal/:keyword', component: SearchGamesListPageComponent },
+  { path: 'genre/:keyword', component: SearchGamesListPageComponent },
+ {
+  path: 'filter',
+  component: SearchGamesListPageComponent
+}
+
 ];

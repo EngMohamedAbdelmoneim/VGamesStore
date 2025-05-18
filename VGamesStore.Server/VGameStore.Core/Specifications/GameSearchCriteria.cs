@@ -16,7 +16,7 @@ namespace VGameStore.Core.Specifications
 		public class FilterDto
 		{
 			public string? Keyword { get; set; }
-			public int? GenreId { get; set; }
+			public string? GenreName { get; set; }
 			public decimal? MinPrice { get; set; }
 			public decimal? MaxPrice { get; set; }
 			public string? Developer { get; set; }

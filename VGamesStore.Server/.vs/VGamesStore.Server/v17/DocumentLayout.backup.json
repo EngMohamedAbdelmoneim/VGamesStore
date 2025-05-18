@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\VGamesStore\\VGamesStore.Server\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{47A7D59C-544A-4EE2-8E57-CE3C479494EA}|VGameStore.Infrastructure\\VGameStore.Infrastructure.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.infrastructure\\repositories\\searchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A7D59C-544A-4EE2-8E57-CE3C479494EA}|VGameStore.Infrastructure\\VGameStore.Infrastructure.csproj|solutionrelative:vgamestore.infrastructure\\repositories\\searchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E78E7DA-B637-4AFC-9A58-26333456053C}|VGameStore.Core\\VGameStore.Core.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.core\\specifications\\gamesearchcriteria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E78E7DA-B637-4AFC-9A58-26333456053C}|VGameStore.Core\\VGameStore.Core.csproj|solutionrelative:vgamestore.core\\specifications\\gamesearchcriteria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.application\\services\\searchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|solutionrelative:vgamestore.application\\services\\searchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.application\\interfaces\\isearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|solutionrelative:vgamestore.application\\interfaces\\isearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E71A83FB-782F-48B2-86C7-B4EC74B66DB1}|VGamesStore.Server\\VGamesStore.Api.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamesstore.server\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E71A83FB-782F-48B2-86C7-B4EC74B66DB1}|VGamesStore.Server\\VGamesStore.Api.csproj|solutionrelative:vgamesstore.server\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +82,56 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameSearchCriteria.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Core\\Specifications\\GameSearchCriteria.cs",
+              "RelativeDocumentMoniker": "VGameStore.Core\\Specifications\\GameSearchCriteria.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Core\\Specifications\\GameSearchCriteria.cs",
+              "RelativeToolTip": "VGameStore.Core\\Specifications\\GameSearchCriteria.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T08:56:09.271Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ISearchService.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\Interfaces\\ISearchService.cs",
+              "RelativeDocumentMoniker": "VGameStore.Application\\Interfaces\\ISearchService.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\Interfaces\\ISearchService.cs",
+              "RelativeToolTip": "VGameStore.Application\\Interfaces\\ISearchService.cs",
+              "ViewState": "AgIAAAsAAABAMzMzMzMbwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T06:05:17.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SearchRepository.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\Repositories\\SearchRepository.cs",
+              "RelativeDocumentMoniker": "VGameStore.Infrastructure\\Repositories\\SearchRepository.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\Repositories\\SearchRepository.cs*",
+              "RelativeToolTip": "VGameStore.Infrastructure\\Repositories\\SearchRepository.cs*",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAkwGIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:43:59.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SearchService.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\Services\\SearchService.cs",
+              "RelativeDocumentMoniker": "VGameStore.Application\\Services\\SearchService.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\Services\\SearchService.cs",
+              "RelativeToolTip": "VGameStore.Application\\Services\\SearchService.cs",
+              "ViewState": "AgIAACcAAACAmZmZmZkwwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:43:23.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\Program.cs",
               "RelativeDocumentMoniker": "VGamesStore.Server\\Program.cs",
@@ -78,20 +143,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "VGamesStore.Server\\Controllers\\CartController.cs",
               "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\Controllers\\CartController.cs",
               "RelativeToolTip": "VGamesStore.Server\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T04:34:27.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T04:34:27.542Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "IWishlistService.cs",
               "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Core\\Interfaces\\IWishlistService.cs",
               "RelativeDocumentMoniker": "VGameStore.Core\\Interfaces\\IWishlistService.cs",
@@ -103,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ISearchRepository.cs",
               "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Core\\Interfaces\\ISearchRepository.cs",
               "RelativeDocumentMoniker": "VGameStore.Core\\Interfaces\\ISearchRepository.cs",
@@ -115,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Cart.cs",
               "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Core\\Entities\\Cart.cs",
               "RelativeDocumentMoniker": "VGameStore.Core\\Entities\\Cart.cs",
@@ -127,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ICartService.cs",
               "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Core\\Interfaces\\ICartService.cs",
               "RelativeDocumentMoniker": "VGameStore.Core\\Interfaces\\ICartService.cs",
@@ -139,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "RedisCartService.cs",
               "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\RedisServices\\RedisCartService.cs",
               "RelativeDocumentMoniker": "VGameStore.Infrastructure\\RedisServices\\RedisCartService.cs",

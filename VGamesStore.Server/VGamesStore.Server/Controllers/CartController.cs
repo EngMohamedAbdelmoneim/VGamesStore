@@ -33,7 +33,7 @@ namespace VGamesStore.Api.Controllers
 			await _cartService.DeleteCartAsync(userId);
 			return Ok();
 		}
-		[HttpPost("{userId}/add")]
+		[HttpPost("{userId}")]
 		public async Task<ActionResult<Cart>> AddOrUpdateItem(string userId, CartItem item)
 		{
 			var cart = await _cartService.AddItemAsync(userId, item);

@@ -2,7 +2,7 @@
   {
     "ContainingType": "VGamesStore.Api.Controllers.CartController",
     "Method": "AddOrUpdateItem",
-    "RelativePath": "api/Cart/AddOrUpdateItem/{userId}/add",
+    "RelativePath": "api/Cart/AddOrUpdateItem/{userId}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -495,6 +495,136 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VGamesStore.Api.Controllers.WishlistController",
+    "Method": "AddOrUpdateItem",
+    "RelativePath": "api/Wishlist/AddOrUpdateItem/{userWishlistId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userWishlistId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "item",
+        "Type": "VGameStore.Core.Entities.WishlistItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VGameStore.Core.Entities.Wishlist",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VGamesStore.Api.Controllers.WishlistController",
+    "Method": "DeleteWishlist",
+    "RelativePath": "api/Wishlist/DeleteWishlist/{userWishlistId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userWishlistId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VGamesStore.Api.Controllers.WishlistController",
+    "Method": "GetWishlist",
+    "RelativePath": "api/Wishlist/GetWishlist/{userWishlistId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userWishlistId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VGameStore.Core.Entities.Wishlist",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VGamesStore.Api.Controllers.WishlistController",
+    "Method": "RemoveItem",
+    "RelativePath": "api/Wishlist/RemoveItem/{userWishlistId}/remove/{gameId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userWishlistId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "gameId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VGameStore.Core.Entities.Wishlist",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VGamesStore.Api.Controllers.WishlistController",
+    "Method": "UpdateWishlist",
+    "RelativePath": "api/Wishlist/UpdateWishlist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "wishlist",
+        "Type": "VGameStore.Core.Entities.Wishlist",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VGameStore.Core.Entities.Wishlist",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "VGamesStore.Server.Controllers.WeatherForecastController",

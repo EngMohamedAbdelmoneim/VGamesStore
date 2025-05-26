@@ -1,7 +1,10 @@
 <mat-toolbar color="primary" class="navbar">
   <mat-icon svgIcon="custom-icon"></mat-icon>
-  <span style="flex: 1 1 1" class="v">V</span>
-  <span style="flex: 1 1 auto">GameStore</span>
+  <img
+    src="http://localhost:4200/assets/VGameStore2.png"
+    alt="VGameStore Logo"
+    class="vgamestore-logo"
+  />
   <div class="input-group flex-nowrap">
     <input
       type="search"
@@ -30,8 +33,10 @@
   <button mat-button [routerLink]="['/games']" routerLinkActive="active-link">
     Games
   </button>
-
-  <button mat-button routerLink="/account" routerLinkActive="active-link">
-    Account
+  <button mat-button [routerLink]="['/cart']" routerLinkActive="active-link">
+    Wishlist
+  </button>
+  <button mat-button [routerLink]="['/wishlist']" routerLinkActive="active-link">
+    Cart
   </button>
 </mat-toolbar>

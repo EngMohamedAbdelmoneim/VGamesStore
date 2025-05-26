@@ -10,13 +10,15 @@ import { gameReducer, gamesReducer } from './app/features/games/store/game.reduc
 import { GameEffects } from './app/features/games/store/game.effects';
 import { SearchEffects } from './app/features/Search/store/search.effects';
 import { searchReducer } from './app/features/Search/store/search.reducer';
+import { cartReducer } from './app/features/cart/store/cart.reducer';
+import { CartEffects } from './app/features/cart/store/cart.effects';
 
 bootstrapApplication(AppComponent, {
   providers: [
     provideRouter(appRoutes, withComponentInputBinding()),
     provideStore(),
-    provideStore({ games: gamesReducer,game : gameReducer ,search:searchReducer}),
-    provideEffects([GameEffects,SearchEffects]), // ✅ Provide state with correct feature key    provideEffects(GameEffects), // ✅ Register effects CORRECTLY (remove extra brackets)
+    provideStore({ games: gamesReducer,game : gameReducer ,search:searchReducer,cart:cartReducer}),
+    provideEffects([GameEffects,SearchEffects,CartEffects]), // ✅ Provide state with correct feature key    provideEffects(GameEffects), // ✅ Register effects CORRECTLY (remove extra brackets)
     provideHttpClient(),
   ]
 }).catch(err => console.error(err));

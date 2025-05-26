@@ -1,5 +1,32 @@
-<div class="game-card"  [routerLink]="['/games', game.id]">
-<img [src]="getFormattedPrice(game.imageUrl)" [alt]="game.title" />
-      <h3>{{ game.title }}</h3>
-      <span>💰 {{ game.price | currency }}</span>
+<div class="game-card neon-glow">
+  <img
+    [src]="getImageUrl(game.imageUrl)"
+    [alt]="game.title"
+    [routerLink]="['/games', game.id]"
+    class="game-thumbnail"
+  />
+
+  <div class="game-info">
+    <div class="game-text">
+      <h3 class="game-title">{{ game.title }}</h3>
+      <p class="game-dev">{{ game.developer }}</p>
+    </div>
+
+    <div class="game-meta">
+      <span class="game-price">{{ game.price | currency }}</span>
+      <button
+        mat-icon-button
+        matTooltip="add to wishlist"
+        matTooltipShowDelay="500"
+        matTooltipHideDelay="200"
+        matTooltipDisabled="false"
+        matTooltipPosition="below"
+        matTooltipClass="custom-tooltip"
+        (click)="addToCart()"
+        class="add-cart-icon"
+      >
+        <mat-icon svgIcon="add-to-wishlist">add_circle</mat-icon>
+      </button>
+    </div>
+  </div>
 </div>

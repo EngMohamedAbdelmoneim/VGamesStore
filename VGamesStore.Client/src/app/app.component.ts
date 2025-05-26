@@ -1,3 +1,6 @@
+import { Subscription } from 'rxjs';
+import { CartService } from './core/services/cart.service';
+import { GuidService } from './core/services/guid.service';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './shared/navbar/navbar.component';
@@ -10,4 +13,9 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 })
 export class AppComponent {
   title = 'VGamesStore.Client';
+  constructor(guidService : GuidService, cartService : CartService) {
+    guidService.getOrCreate('cartId');
+    // cartService.createAndGetCart().subscribe((data: any) => {
+    //   console.log('Cart data:', data);    })
+  }
 }

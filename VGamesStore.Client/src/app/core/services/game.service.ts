@@ -7,7 +7,7 @@ import { Game } from '../models/game';
   providedIn: 'root'
 })
 export class GameService {
-  private apiUrl = 'https://localhost:7229/api/Game'; // Replace with actual API
+  private apiUrl = 'https://localhost:7229/api/Game'; 
 
   constructor(private http: HttpClient) {}
 

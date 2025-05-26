@@ -3,44 +3,45 @@
     <div class="text">
       <span
         *ngFor="let letter of textArray; let i = index"
-        [style.animation-delay.ms]="i * 100"
+        [style.animationDelay.ms]="i * 100"
         >{{ letter }}</span
       >
     </div>
-
     <div class="arrows">
       <img
         *ngFor="let arrow of arrows; let i = index"
-        src="http://localhost:4200/assets/right-arrow.png"
+        src="assets/right-arrow.png"
+        alt="Arrow"
         class="arrow"
-        [style.animation-delay.ms]="(textArray.length + i) * 100"
+        [style.animationDelay.ms]="(textArray.length + i) * 100"
       />
     </div>
   </div>
 </div>
+
 <div class="game-list">
-  <div *ngIf="loading$ | async" class="loading">
+  <div *ngIf="(loading$ | async)" class="loading">
     <div class="intro-screen">
       <img
-        src="http://localhost:4200/assets/V.png"
+        src="assets/V2.png"
         alt="V Icon"
         class="v-icon"
         [class.show]="vVisible"
         [class.hide]="vHidden"
       />
-
       <img
-        src="http://localhost:4200/assets/VGameStore.png"
+        src="assets/VGameStore2.png"
         alt="VGameStore Logo"
         class="vgamestore-logo"
         [class.show]="logoVisible"
       />
     </div>
   </div>
-  <div *ngIf="!(loading$ | async)">
+
+  <div *ngIf="!(loading$ | async)" class="game-card-grid">
     <app-game-card
       *ngFor="let game of games$ | async"
       [game]="game"
-    ></app-game-card>
+    ></app-game-card> 
   </div>
 </div>

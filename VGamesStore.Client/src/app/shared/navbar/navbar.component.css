@@ -5,6 +5,13 @@
   padding: 0;
 }
 
+.vgamestore-logo {
+  width: 150px;
+  height: 50%;
+  margin-right: auto;
+  padding: 0;
+}
+
 .navbar span {
   color: var(--text-color-primary);
   font-size: 1.5rem;
@@ -19,7 +26,7 @@
 
 .navbar button {
   color: var(--text-color-primary);
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .navbar button:hover {
@@ -31,8 +38,8 @@
   color: yellow !important;
   /* or any color that looks good with your theme */
   border-bottom: 2px solid yellow;
-  border-radius: 5px ;
- }
+  border-radius: 5px;
+}
 
 .navbar mat-icon {
   width: 50px;
@@ -58,20 +65,23 @@
 
 
   }
+
   input::placeholder {
     color: var(--text-color-secondary) !important;
   }
+
   input:focus {
     outline: none;
     box-shadow: 0 0 5px var(--text-color-secondary);
   }
+
   span {
     border-radius: 2px;
     border: none;
     font-size: 24px;
     font-weight: bold;
     padding: 3px 10px;
-    background-color:  var(--secondary-color);
-    color:  var(--text-color-secondary);
+    background-color: var(--secondary-color);
+    color: var(--text-color-secondary);
   }
 }

@@ -1,43 +1,106 @@
-.game-card {
-  display: inline-block;
-  width: 220px;
-  height: 350px;
-  margin: 15px;
-  z-index: 1;
-  border-radius: 4px;
-  background-color: var(--secondary-color);
-  transition: transform 0.2s ease-in-out;
-  &:hover {
+  ::ng-deep .custom-tooltip {
+    background-color: var(--secondary-color);
+    color: var(--text-color-primary);
+    font-weight: bold;
+  }
+
+  .game-card {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    background: #1a1023;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Venite Adoremus', sans-serif;
+    img{
+      object-fit: fill;
+    }
+  }
+
+  .game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #ff00ff;
+  }
+
+  .neon-glow {
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+    border: 1px solid #5a00ff;
+  }
+
+  .game-thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom: 2px solid #5a00ff;
+  }
+
+  .game-info {
+    background: linear-gradient(to bottom, #1f1230c0, #0d0616b0);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0.8rem;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+  }
+
+  .game-text {
+    margin-bottom: 0.5rem;
+  }
+
+  .game-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 0 4px #ff00ff;
+    margin: 0;
+  }
+
+  .game-dev {
+    font-size: 0.75rem;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    margin: 2px 0;
+  }
+
+  .game-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .game-price {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #ffe600;
+    text-shadow: 0 0 2px #ffe600;
+  }
+
+  .add-cart-icon {
+    width: fit-content;
+    height: fit-content;
+    font-size: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .add-cart-icon:hover {
     transform: scale(1.05);
     z-index: 2;
+    transform: rotate(180deg);
+    transition: transform 0.2s ease-in-out;
   }
-}
 
-img {
-  width: 100%;
-  height: 70%;
-  border-radius: 5px;
-  object-fit:fill;
-}
-
-h3{
-  margin: 10px 0;
-  font-size: 18px;
-  color: var(--text-color-primary);;
-}
-
-p {
-  font-size: 14px;
-  color: #555;
-  display: block;
-  text-overflow: ellipsis;
-  word-wrap: break-word;
-  overflow: hidden;
-  max-height: 3em;
-  line-height: 1em;
-}
-
-span {
-  font-weight: bold;
-  color: #28a745;
-}
+  /* Tooltip */
+  .custom-tooltip {
+    background-color: #5a00ff;
+    color: #fff;
+    font-size: 0.8rem;
+    font-family: 'Venite Adoremus', sans-serif;
+  }

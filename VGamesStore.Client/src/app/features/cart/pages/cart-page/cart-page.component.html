@@ -1,0 +1,34 @@
+<div class="bar-container">
+  <div class="game-bar">
+    <div class="text">
+      <span
+        *ngFor="let letter of textArray; let i = index"
+        [style.animationDelay.ms]="i * 100"
+        >{{ letter }}</span
+      >
+    </div>
+    <div class="arrows">
+      <img
+        *ngFor="let arrow of arrows; let i = index"
+        src="assets/right-arrow.png"
+        alt="Arrow"
+        class="arrow"
+        [style.animationDelay.ms]="(textArray.length + i) * 100"
+      />
+    </div>
+    <div class="bar-actions">
+      <button class="remove-btn" (click)="removeCart()"><mat-icon>delete</mat-icon> <span>Remove All</span></button>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="CartItems$ | async as cart">
+  <div *ngIf="cart.length > 0; else emptyCart">
+    <div *ngFor="let item of cart">
+      <app-cart-item-card [cartItem]="item"></app-cart-item-card>
+    </div>
+  </div>
+  <ng-template #emptyCart>
+    <p>Your cart is empty.</p>
+  </ng-template>
+</div>

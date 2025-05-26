@@ -1,0 +1,13 @@
+<div class="cart-item-card-container">
+  <div class="cart-item-card">
+    <img [src]="getImageUrl(cartItem?.imageUrl)" alt="Game Image" class="game-image" />
+    <div class="game-details">
+      <h3 class="game-title">{{ cartItem?.gameName }}</h3>
+      <p class="game-price">Price: {{ cartItem?.price | currency }}</p>
+      <div class="cart-actions">
+        <button class="remove-btn" (click)="removeFromCart()">✖ Remove</button>
+        <button class="wishlist-btn">♥ Wishlist</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,10 +1,11 @@
-/* animated bar */
-.bar-container{
+/* ====== Animated Bar ====== */
+.bar-container {
   background-color: var(--secondary-color);
   width: 100%;
 }
+
 .game-bar {
-  background-color: var(--secondary-color);/* Dark purple background */
+  background-color: var(--secondary-color);
   width: 90%;
   margin: auto;
   display: flex;
@@ -13,10 +14,11 @@
 }
 
 .text span {
+  font-family: 'Venite Adoremus', sans-serif;
   font-weight: bold;
-  color: white;
-  margin-right: 2px;
+  color: #fff;
   font-size: 22px;
+  margin-right: 2px;
   display: inline-block;
   transform: translateX(-50px);
   opacity: 0;
@@ -31,7 +33,6 @@
   animation: slideIn 0.4s forwards;
 }
 
-/* Slide-in animation */
 @keyframes slideIn {
   to {
     transform: translateX(0);
@@ -39,7 +40,7 @@
   }
 }
 
- /* game list */
+/* ====== Game List Section ====== */
 .game-list {
   text-align: center;
 
@@ -50,29 +51,27 @@
   }
 }
 
+.game-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
 
-
-
-
+/* ====== Intro Screen Animation ====== */
 .intro-screen {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: black;
-}
-
-.logo-container {
+  background-color: var(--primary-color);
   position: relative;
-  width: 200px; /* Smaller size */
-  height: 60px;  /* Adjust height for your logos */
 }
 
-.v-icon,
-.vgamestore-logo {
+.v-icon {
   position: absolute;
-  width: 50%;
-  height: 50%;
+  width: 25%;
+  height: 25%;
   object-fit: contain;
   opacity: 0;
   transition: transform 1.5s ease-out, opacity 0.5s ease;
@@ -90,11 +89,26 @@
 }
 
 .vgamestore-logo {
-  transform: translateY(10px);
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  object-fit: contain;
+  opacity: 0;
+  animation: scalePulse 2s infinite ease-in-out;
   transition: opacity 1s ease, transform 1s ease;
+  transform: translateY(10px);
 }
 
 .vgamestore-logo.show {
   opacity: 1;
   transform: translateY(0);
+}
+
+@keyframes scalePulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
 }

@@ -1,24 +1,24 @@
-import { loadCartItems } from './cart.actions';
+import { loadWishlistItems } from './wishlist.actions';
 import { createSelector, createFeatureSelector } from '@ngrx/store';
-import { CartState } from './cart.reducer';
+import { WishlistState } from './wishlist.reducer';
 
-export const selectCartItemsState = createFeatureSelector<CartState>('cart');
-export const selectAllcartItems = createSelector(selectCartItemsState, state => state.cartItems);
-export const selectLoading = createSelector(selectCartItemsState, state => state.loading);
-export const selectError = createSelector(selectCartItemsState, state => state.error);
+export const selectWishlistItemsState = createFeatureSelector<WishlistState>('wishlist');
+export const selectAllwishlistItems = createSelector(selectWishlistItemsState, state => state.wishlistItems);
+export const selectLoading = createSelector(selectWishlistItemsState, state => state.loading);
+export const selectError = createSelector(selectWishlistItemsState, state => state.error);
 
-// Selectors for adding a cart item
-export const selectAddCartItemSuccess = createSelector(
-  selectCartItemsState,
-  state => state.addedCartItem
+// Selectors for adding a wishlist item
+export const selectAddWishlistItemSuccess = createSelector(
+  selectWishlistItemsState,
+  state => state.addedWishlistItem
 );
-export const selectAddCartItemError = createSelector(
-  selectCartItemsState,
+export const selectAddWishlistItemError = createSelector(
+  selectWishlistItemsState,
   state => state.error
 );
-// Selectors for removing a cart item
-export const selectRemoveCartItem = createSelector(
-  selectCartItemsState,
-  state => state.cartItems
+// Selectors for removing a wishlist item
+export const selectRemoveWishlistItem = createSelector(
+  selectWishlistItemsState,
+  state => state.wishlistItems
 );
 

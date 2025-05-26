@@ -1,0 +1,69 @@
+.bar-container {
+  background-color: var(--secondary-color);
+  width: 100%;
+}
+
+.game-bar {
+  background-color: var(--secondary-color);
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.text span {
+  font-family: 'Venite Adoremus', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 22px;
+  margin-right: 2px;
+  display: inline-block;
+  transform: translateX(-50px);
+  opacity: 0;
+  animation: slideIn 0.4s forwards;
+}
+
+.arrows .arrow {
+  width: 40px;
+  margin-left: 5px;
+  transform: translateX(-50px);
+  opacity: 0;
+  animation: slideIn 0.4s forwards;
+}
+
+@keyframes slideIn {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.bar-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+  margin-left: auto;
+}
+
+.remove-btn {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  /* Vertically center */
+  gap: 8px;
+  /* Optional spacing between spans */
+  padding: 8px 16px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  mat-icon{
+    color: #ff0033;
+  }
+}
+.remove-btn:hover {
+  color: #ff0033;
+}

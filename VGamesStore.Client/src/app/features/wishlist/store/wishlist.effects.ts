@@ -1,58 +1,58 @@
-import { CartItem } from './../../../core/models/cart-item';
-import { CartService } from './../../../core/services/cart.service';
+import { WishlistItem } from './../../../core/models/wishlist-item';
+import { WishlistService } from './../../../core/services/wishlist.service';
 import { Injectable, inject } from '@angular/core';
 import { Actions, createEffect, ofType } from '@ngrx/effects';
 import { catchError, map, mergeMap, of } from 'rxjs';
-import { addCartItem, addCartItemFailure, addCartItemSuccess, loadCartItems, loadCartItemsFailure, loadCartItemsSuccess, removeCartItem, removeCartItemFailure, removeCartItemSuccess } from './cart.actions';
+import { addWishlistItem, addWishlistItemFailure, addWishlistItemSuccess, loadWishlistItems, loadWishlistItemsFailure, loadWishlistItemsSuccess, removeWishlistItem, removeWishlistItemFailure, removeWishlistItemSuccess } from './wishlist.actions';
 
 @Injectable()
-export class CartEffects {
+export class WishlistEffects {
   private actions$ = inject(Actions);
-  private cartService = inject(CartService);
+  private wishlistService = inject(WishlistService);
 
-  loadCartItems$ = createEffect(() =>
+  loadWishlistItems$ = createEffect(() =>
     this.actions$.pipe(
-      ofType(loadCartItems),
+      ofType(loadWishlistItems),
       mergeMap(() =>
-        this.cartService.createAndGetCart().pipe(
-          map((cart) => loadCartItemsSuccess({ cartItems: cart.items })),
-          catchError((error) => of(loadCartItemsFailure({ error: error.message })))
+        this.wishlistService.createAndGetWishlist().pipe(
+          map((wishlist) => loadWishlistItemsSuccess({ wishlistItems: wishlist.items })),
+          catchError((error) => of(loadWishlistItemsFailure({ error: error.message })))
         )
       )
     )
   );
-  //Effect for adding a cart item
-  addCartItem$ = createEffect(() =>
+  //Effect for adding a wishlist item
+  addWishlistItem$ = createEffect(() =>
     this.actions$.pipe(
-      ofType(addCartItem),
-      mergeMap(({ cartItem }) =>
-        this.cartService.addOrUpdateCartItem(cartItem).pipe(
-          map((addedCartItem) => addCartItemSuccess({ cartItem: addedCartItem })),
-          catchError((error) => of(addCartItemFailure({ error: error.message })))
+      ofType(addWishlistItem),
+      mergeMap(({ wishlistItem }) =>
+        this.wishlistService.addOrUpdateWishlistItem(wishlistItem).pipe(
+          map((addedWishlistItem) => addWishlistItemSuccess({ wishlistItem: addedWishlistItem })),
+          catchError((error) => of(addWishlistItemFailure({ error: error.message })))
         )
       )
     )
   );
-  // Effect for removing a cart and its item
-removeCart$ = createEffect(() =>
+  // Effect for removing a wishlist and its item
+removeWishlist$ = createEffect(() =>
     this.actions$.pipe(
-      ofType(removeCartItem),
+      ofType(removeWishlistItem),
       mergeMap(() =>
-        this.cartService.removeCart().pipe(
-          map(() => removeCartItemSuccess({ cartItems: [] })), // Assuming the cart is cleared
-          catchError((error) => of(removeCartItemFailure({ error: error.message })))
+        this.wishlistService.removeWishlist().pipe(
+          map(() => removeWishlistItemSuccess({ wishlistItems: [] })), // Assuming the wishlist is cleared
+          catchError((error) => of(removeWishlistItemFailure({ error: error.message })))
         )
       )
     )
   );
 
-  removeCartItem$ = createEffect(() =>
+  removeWishlistItem$ = createEffect(() =>
     this.actions$.pipe(
-      ofType(removeCartItem),
-      mergeMap(({ cartItem }) =>
-        this.cartService.RemoveCartItem(cartItem.gameId).pipe(
-          map((cart) => removeCartItemSuccess({ cartItems: cart.items })),
-          catchError((error) => of(removeCartItemFailure({ error: error.message })))
+      ofType(removeWishlistItem),
+      mergeMap(({ wishlistItem }) =>
+        this.wishlistService.RemoveWishlistItem(wishlistItem.gameId).pipe(
+          map((wishlist) => removeWishlistItemSuccess({ wishlistItems: wishlist.items })),
+          catchError((error) => of(removeWishlistItemFailure({ error: error.message })))
         )
       )
     )

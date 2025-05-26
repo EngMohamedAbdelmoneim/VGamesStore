@@ -1,1 +1,13 @@
-<p>wishlist-item-card works!</p>
+<div class="wishlist-item-card-container">
+  <div class="wishlist-item-card">
+    <img [src]="getImageUrl(wishlistItem?.imageUrl)" alt="Game Image" class="game-image" />
+    <div class="game-details">
+      <h3 class="game-title">{{ wishlistItem?.gameName }}</h3>
+      <p class="game-price">Price: {{ wishlistItem?.price | currency }}</p>
+      <div class="wishlist-actions">
+        <button class="remove-btn" (click)="removeFromWishlist()">✖ Remove</button>
+        <button class="wishlist-btn">♥ Wishlist</button>
+      </div>
+    </div>
+  </div>
+</div>

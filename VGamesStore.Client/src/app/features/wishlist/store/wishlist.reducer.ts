@@ -1,37 +1,37 @@
 import { createReducer, on } from '@ngrx/store';
-import { CartItem } from '../../../core/models/cart-item';
-import * as CartActions from './cart.actions';
-export interface CartState {
-  cartItems: CartItem[];
-  addedCartItem: CartItem | null;
-  removedCartItem: CartItem | null;
+import { WishlistItem } from '../../../core/models/wishlist-item';
+import * as WishlistActions from './wishlist.actions';
+export interface WishlistState {
+  wishlistItems: WishlistItem[];
+  addedWishlistItem: WishlistItem | null;
+  removedWishlistItem: WishlistItem | null;
   loading: boolean;
   error: string | null;
 }
 
-const initialState: CartState = {
-  cartItems: [],
-  addedCartItem: null,
-  removedCartItem: null,
+const initialState: WishlistState = {
+  wishlistItems: [],
+  addedWishlistItem: null,
+  removedWishlistItem: null,
   loading: false,
   error: null
 };
 // Define the reducer function for the list of games state
-export const cartReducer = createReducer(
+export const wishlistReducer = createReducer(
   initialState,
-  on(CartActions.loadCartItems, state => ({ ...state, loading: true })),
-  on(CartActions.loadCartItemsSuccess, (state, { cartItems }) => ({ ...state, loading: false, cartItems })),
-  on(CartActions.loadCartItemsFailure, (state, { error }) => ({ ...state, loading: false, error })),
+  on(WishlistActions.loadWishlistItems, state => ({ ...state, loading: true })),
+  on(WishlistActions.loadWishlistItemsSuccess, (state, { wishlistItems }) => ({ ...state, loading: false, wishlistItems })),
+  on(WishlistActions.loadWishlistItemsFailure, (state, { error }) => ({ ...state, loading: false, error })),
 
-  // Actions for adding a cart item
-  on(CartActions.addCartItemSuccess, (state, { cartItem }) => ({
+  // Actions for adding a wishlist item
+  on(WishlistActions.addWishlistItemSuccess, (state, { wishlistItem }) => ({
     ...state,
-    addedCartItem: cartItem,
+    addedWishlistItem: wishlistItem,
   })),
-  on(CartActions.addCartItemFailure, (state, { error }) => ({ ...state, error })),
+  on(WishlistActions.addWishlistItemFailure, (state, { error }) => ({ ...state, error })),
 
-  // Actions for removing a cart item
-  on(CartActions.removeCartItem, state => ({ ...state, loading: true })),
-  on(CartActions.removeCartItemSuccess,  (state, { cartItems }) => ({ ...state, loading: false, cartItems })),
+  // Actions for removing a wishlist item
+  on(WishlistActions.removeWishlistItem, state => ({ ...state, loading: true })),
+  on(WishlistActions.removeWishlistItemSuccess,  (state, { wishlistItems }) => ({ ...state, loading: false, wishlistItems })),
 
 );

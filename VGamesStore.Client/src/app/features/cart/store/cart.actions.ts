@@ -28,7 +28,7 @@ export const addCartItemFailure = createAction(
 
 // Define actions for removing a cart and its items ------------------------------------------------------------------------
 export const removeCart = createAction(
-  '[Cart] Remove Cart Item'
+  '[Cart] Remove Cart'
 );
 
 export const removeCartItem = createAction(

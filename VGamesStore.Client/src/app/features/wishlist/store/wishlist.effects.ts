@@ -3,7 +3,7 @@ import { WishlistService } from './../../../core/services/wishlist.service';
 import { Injectable, inject } from '@angular/core';
 import { Actions, createEffect, ofType } from '@ngrx/effects';
 import { catchError, map, mergeMap, of } from 'rxjs';
-import { addWishlistItem, addWishlistItemFailure, addWishlistItemSuccess, loadWishlistItems, loadWishlistItemsFailure, loadWishlistItemsSuccess, removeWishlistItem, removeWishlistItemFailure, removeWishlistItemSuccess } from './wishlist.actions';
+import { addWishlistItem, addWishlistItemFailure, addWishlistItemSuccess, loadWishlistItems, loadWishlistItemsFailure, loadWishlistItemsSuccess, removeWishlist, removeWishlistItem, removeWishlistItemFailure, removeWishlistItemSuccess } from './wishlist.actions';
 
 @Injectable()
 export class WishlistEffects {
@@ -36,7 +36,7 @@ export class WishlistEffects {
   // Effect for removing a wishlist and its item
 removeWishlist$ = createEffect(() =>
     this.actions$.pipe(
-      ofType(removeWishlistItem),
+      ofType(removeWishlist),
       mergeMap(() =>
         this.wishlistService.removeWishlist().pipe(
           map(() => removeWishlistItemSuccess({ wishlistItems: [] })), // Assuming the wishlist is cleared

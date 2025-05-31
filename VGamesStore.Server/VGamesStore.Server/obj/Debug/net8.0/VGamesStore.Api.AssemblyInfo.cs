@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VGamesStore.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb6666dc49900045f4ad990b1412e8cda172a7ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8a958cf43d92ded3f75fc7b1e4517a198ed3e5a")]
 [assembly: System.Reflection.AssemblyProductAttribute("VGamesStore.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VGamesStore.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,7 +3,7 @@ import { CartService } from './../../../core/services/cart.service';
 import { Injectable, inject } from '@angular/core';
 import { Actions, createEffect, ofType } from '@ngrx/effects';
 import { catchError, map, mergeMap, of } from 'rxjs';
-import { addCartItem, addCartItemFailure, addCartItemSuccess, loadCartItems, loadCartItemsFailure, loadCartItemsSuccess, removeCartItem, removeCartItemFailure, removeCartItemSuccess } from './cart.actions';
+import { addCartItem, addCartItemFailure, addCartItemSuccess, loadCartItems, loadCartItemsFailure, loadCartItemsSuccess, removeCart, removeCartItem, removeCartItemFailure, removeCartItemSuccess } from './cart.actions';
 
 @Injectable()
 export class CartEffects {
@@ -36,7 +36,7 @@ export class CartEffects {
   // Effect for removing a cart and its item
 removeCart$ = createEffect(() =>
     this.actions$.pipe(
-      ofType(removeCartItem),
+      ofType(removeCart),
       mergeMap(() =>
         this.cartService.removeCart().pipe(
           map(() => removeCartItemSuccess({ cartItems: [] })), // Assuming the cart is cleared

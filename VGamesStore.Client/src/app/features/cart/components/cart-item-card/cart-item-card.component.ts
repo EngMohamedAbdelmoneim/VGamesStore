@@ -4,7 +4,8 @@ import { imagePath } from '../../../../utils/imagePath';
 import { CommonModule } from '@angular/common';
 import { Store } from '@ngrx/store';
 import * as CartActions from '../../../../features/cart/store/cart.actions';
-
+import * as WishlistActions from '../../../../features/wishlist/store/wishlist.actions';
+import { WishlistItem } from '../../../../core/models/wishlist-item';
 @Component({
   selector: 'app-cart-item-card',
   imports: [CommonModule],
@@ -23,6 +24,17 @@ export class CartItemCardComponent {
       price: this.cartItem!.price,
     };
     this.store.dispatch(CartActions.removeCartItem({ cartItem }));
+    console.log(`Game with ID ${this.cartItem?.gameId} removed from cart.`);
+  }
+  addToWishlist() {
+    const wishlistItem: WishlistItem = {
+      gameId: this.cartItem!.gameId,
+      gameName: this.cartItem!.gameName,
+      imageUrl: this.cartItem!.imageUrl,
+      price: this.cartItem!.price,
+    };
+    this.store.dispatch(WishlistActions.addWishlistItem({ wishlistItem }));
+    this.removeFromCart()
     console.log(`Game with ID ${this.cartItem?.gameId} removed from cart.`);
   }
   getImageUrl(Url: any | null): any {

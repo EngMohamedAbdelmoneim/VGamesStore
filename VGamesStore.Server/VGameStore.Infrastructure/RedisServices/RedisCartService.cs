@@ -5,7 +5,7 @@ using VGameStore.Application.DTOs;
 using VGameStore.Application.Interfaces;
 
 
-namespace VGameStore.Application.Services
+namespace VGameStore.Infrastructure.Services
 {
 	public class RedisCartService : ICartService
 	{

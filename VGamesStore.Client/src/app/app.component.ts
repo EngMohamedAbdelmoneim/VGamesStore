@@ -4,6 +4,7 @@ import { GuidService } from './core/services/guid.service';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import { Store } from '@ngrx/store';
 
 @Component({
   selector: 'app-root',
@@ -13,9 +14,8 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 })
 export class AppComponent {
   title = 'VGamesStore.Client';
-  constructor(guidService : GuidService, cartService : CartService) {
+  constructor(guidService : GuidService,store: Store) {
     guidService.getOrCreate('cartId');
-    // cartService.createAndGetCart().subscribe((data: any) => {
-    //   console.log('Cart data:', data);    })
+    guidService.getOrCreate('wishlistId');
   }
 }

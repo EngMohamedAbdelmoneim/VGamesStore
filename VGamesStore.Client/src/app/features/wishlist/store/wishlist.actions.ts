@@ -28,7 +28,7 @@ export const addWishlistItemFailure = createAction(
 
 // Define actions for removing a wishlist and its items ------------------------------------------------------------------------
 export const removeWishlist = createAction(
-  '[Wishlist] Remove Wishlist Item'
+  '[Wishlist] Remove Wishlist'
 );
 
 export const removeWishlistItem = createAction(

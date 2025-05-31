@@ -8,7 +8,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using VGameStore.Application.DTOs;
 using VGameStore.Application.Interfaces;
-using VGameStore.Application.Services;
+using VGameStore.Infrastructure.Services;
 using VGameStore.Core.Entities;
 
 namespace VGameStore.Infrastructure.RedisServices

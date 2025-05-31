@@ -4,7 +4,9 @@ using VGameStore.Application.Mappings;
 using VGameStore.Application.Repositories;
 using VGameStore.Application.Services;
 using VGameStore.Infrastructure.Persistence;
-using Microsoft.Extensions.Caching.StackExchangeRedis; // Add this namespace for AddStackExchangeRedisCache
+using Microsoft.Extensions.Caching.StackExchangeRedis;
+using VGameStore.Infrastructure.Services;
+using VGameStore.Infrastructure.RedisServices; // Add this namespace for AddStackExchangeRedisCache
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -47,7 +49,7 @@ builder.Services.AddAutoMapper(typeof(GenreProfile));
 
 // Add Redis services
 builder.Services.AddScoped<ICartService, RedisCartService>();
-//builder.Services.AddScoped<IWishlistService, RedisWishlistService>();
+builder.Services.AddScoped<IWishlistService, RedisWishlistService>();
 builder.Services.AddStackExchangeRedisCache(options =>
 {
 	options.Configuration = builder.Configuration.GetConnectionString("Redis");

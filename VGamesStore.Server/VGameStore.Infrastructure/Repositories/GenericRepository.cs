@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 using VGameStore.Application.Interfaces;
 using VGameStore.Core.Entities;
 using VGameStore.Core.Specifications;
-using VGameStore.Infrastructure.Persistence;
- 
+using VGameStore.Infrastructure.Persistence.GameStoreDb;
+
 namespace VGameStore.Application.Repositories
 {
 	public class GenericRepository<T> : IGenericRepository<T> where T : class

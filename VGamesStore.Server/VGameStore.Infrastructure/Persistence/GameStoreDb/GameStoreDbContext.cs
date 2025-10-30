@@ -2,7 +2,7 @@
 using System.Runtime.Intrinsics.Arm;
 using VGameStore.Core.Entities;
 
-namespace VGameStore.Infrastructure.Persistence
+namespace VGameStore.Infrastructure.Persistence.GameStoreDb
 {
 	public class GameStoreDbContext : DbContext
 	{

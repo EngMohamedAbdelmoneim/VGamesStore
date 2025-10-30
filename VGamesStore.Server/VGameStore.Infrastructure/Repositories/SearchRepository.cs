@@ -1,4 +1,4 @@
-﻿	using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using VGameStore.Application.Interfaces;
 using VGameStore.Core.Entities;
 using VGameStore.Infrastructure.Migrations;
-using VGameStore.Infrastructure.Persistence;
+using VGameStore.Infrastructure.Persistence.GameStoreDb;
 using static VGameStore.Core.Specifications.GameSearchCriteria;
 
 namespace VGameStore.Application.Repositories

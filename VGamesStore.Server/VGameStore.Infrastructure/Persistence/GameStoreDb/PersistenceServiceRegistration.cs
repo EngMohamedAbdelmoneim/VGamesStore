@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-namespace VGameStore.Infrastructure.Persistence
+namespace VGameStore.Infrastructure.Persistence.GameStoreDb
 {
 
 	public static class PersistenceServiceRegistration

@@ -3,10 +3,10 @@ using VGameStore.Application.Interfaces;
 using VGameStore.Application.Mappings;
 using VGameStore.Application.Repositories;
 using VGameStore.Application.Services;
-using VGameStore.Infrastructure.Persistence;
-using Microsoft.Extensions.Caching.StackExchangeRedis;
+
 using VGameStore.Infrastructure.Services;
-using VGameStore.Infrastructure.RedisServices; // Add this namespace for AddStackExchangeRedisCache
+using VGameStore.Infrastructure.RedisServices;
+using VGameStore.Infrastructure.Persistence.GameStoreDb; // Add this namespace for AddStackExchangeRedisCache
 
 var builder = WebApplication.CreateBuilder(args);
 

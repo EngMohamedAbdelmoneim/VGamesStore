@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using VGameStore.Application.Interfaces;
 using VGameStore.Core.Entities;
-using VGameStore.Infrastructure.Persistence;
+using VGameStore.Infrastructure.Persistence.GameStoreDb;
 
 namespace VGameStore.Application.Repositories
 {

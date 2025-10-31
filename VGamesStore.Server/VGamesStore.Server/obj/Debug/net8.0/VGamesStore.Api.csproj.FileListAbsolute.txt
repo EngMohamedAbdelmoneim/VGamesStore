@@ -364,3 +364,17 @@ D:\VGamesStore\VGamesStore.Server\VGamesStore.Server\obj\Debug\net8.0\ref\VGames
 D:\VGamesStore\VGamesStore.Server\VGamesStore.Server\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
 D:\VGamesStore\VGamesStore.Server\VGamesStore.Server\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 D:\VGamesStore\VGamesStore.Server\VGamesStore.Server\bin\Debug\net8.0\StackExchange.Redis.dll
+D:\VGamesStore\VGamesStore.Server\VGamesStore.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\VGamesStore\VGamesStore.Server\VGamesStore.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\VGamesStore\VGamesStore.Server\VGamesStore.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\VGamesStore\VGamesStore.Server\VGamesStore.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\VGamesStore\VGamesStore.Server\VGamesStore.Server\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\VGamesStore\VGamesStore.Server\VGamesStore.Server\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\VGamesStore\VGamesStore.Server\VGamesStore.Server\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\VGamesStore\VGamesStore.Server\VGamesStore.Server\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\VGamesStore\VGamesStore.Server\VGamesStore.Server\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\VGamesStore\VGamesStore.Server\VGamesStore.Server\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\VGamesStore\VGamesStore.Server\VGamesStore.Server\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+D:\VGamesStore\VGamesStore.Server\VGamesStore.Server\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\VGamesStore\VGamesStore.Server\VGamesStore.Server\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+D:\VGamesStore\VGamesStore.Server\VGamesStore.Server\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

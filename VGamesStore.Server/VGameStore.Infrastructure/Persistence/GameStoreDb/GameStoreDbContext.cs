@@ -6,7 +6,7 @@ namespace VGameStore.Infrastructure.Persistence.GameStoreDb
 {
 	public class GameStoreDbContext : DbContext
 	{
-		public GameStoreDbContext(DbContextOptions options) : base(options)
+		public GameStoreDbContext(DbContextOptions<GameStoreDbContext> options) : base(options)
 		{
 		}
 		public GameStoreDbContext() { }

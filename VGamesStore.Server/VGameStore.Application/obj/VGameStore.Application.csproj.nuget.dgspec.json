@@ -65,6 +65,10 @@
               "target": "Package",
               "version": "[5.0.17, )"
             },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.7.27, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[8.11.0, )"
@@ -139,6 +143,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[9.0.10, )"
             }
           },
           "imports": [

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using VGameStore.Application.DTOs;
 using VGameStore.Application.Interfaces;
@@ -6,6 +7,7 @@ using VGameStore.Core.Entities;
 
 namespace VGamesStore.Api.Controllers
 {
+	[Authorize]
 	public class GameController : BaseController
 	{
 		private readonly IGameService _gameService;

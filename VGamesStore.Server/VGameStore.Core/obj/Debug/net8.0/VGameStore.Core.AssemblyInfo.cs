@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VGameStore.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb6666dc49900045f4ad990b1412e8cda172a7ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70e11f499e8c6987b602e2fc8a627e3b6bc1ac88")]
 [assembly: System.Reflection.AssemblyProductAttribute("VGameStore.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VGameStore.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,7 +1,108 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\VGamesStore\\VGamesStore.Server\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47A7D59C-544A-4EE2-8E57-CE3C479494EA}|VGameStore.Infrastructure\\VGameStore.Infrastructure.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.infrastructure\\persistence\\gamestoredb\\gamestoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A7D59C-544A-4EE2-8E57-CE3C479494EA}|VGameStore.Infrastructure\\VGameStore.Infrastructure.csproj|solutionrelative:vgamestore.infrastructure\\persistence\\gamestoredb\\gamestoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E71A83FB-782F-48B2-86C7-B4EC74B66DB1}|VGamesStore.Server\\VGamesStore.Api.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamesstore.server\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E71A83FB-782F-48B2-86C7-B4EC74B66DB1}|VGamesStore.Server\\VGamesStore.Api.csproj|solutionrelative:vgamesstore.server\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E71A83FB-782F-48B2-86C7-B4EC74B66DB1}|VGamesStore.Server\\VGamesStore.Api.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamesstore.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E71A83FB-782F-48B2-86C7-B4EC74B66DB1}|VGamesStore.Server\\VGamesStore.Api.csproj|solutionrelative:vgamesstore.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E71A83FB-782F-48B2-86C7-B4EC74B66DB1}|VGamesStore.Server\\VGamesStore.Api.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamesstore.server\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E71A83FB-782F-48B2-86C7-B4EC74B66DB1}|VGamesStore.Server\\VGamesStore.Api.csproj|solutionrelative:vgamesstore.server\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E71A83FB-782F-48B2-86C7-B4EC74B66DB1}|VGamesStore.Server\\VGamesStore.Api.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamesstore.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E71A83FB-782F-48B2-86C7-B4EC74B66DB1}|VGamesStore.Server\\VGamesStore.Api.csproj|solutionrelative:vgamesstore.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E71A83FB-782F-48B2-86C7-B4EC74B66DB1}|VGamesStore.Server\\VGamesStore.Api.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamesstore.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E71A83FB-782F-48B2-86C7-B4EC74B66DB1}|VGamesStore.Server\\VGamesStore.Api.csproj|solutionrelative:vgamesstore.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E71A83FB-782F-48B2-86C7-B4EC74B66DB1}|VGamesStore.Server\\VGamesStore.Api.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamesstore.server\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E71A83FB-782F-48B2-86C7-B4EC74B66DB1}|VGamesStore.Server\\VGamesStore.Api.csproj|solutionrelative:vgamesstore.server\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E71A83FB-782F-48B2-86C7-B4EC74B66DB1}|VGamesStore.Server\\VGamesStore.Api.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamesstore.server\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E71A83FB-782F-48B2-86C7-B4EC74B66DB1}|VGamesStore.Server\\VGamesStore.Api.csproj|solutionrelative:vgamesstore.server\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.application\\services\\authservices\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|solutionrelative:vgamestore.application\\services\\authservices\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.application\\interfaces\\authinterfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|solutionrelative:vgamestore.application\\interfaces\\authinterfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.application\\services\\authservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|solutionrelative:vgamestore.application\\services\\authservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.application\\interfaces\\authinterfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|solutionrelative:vgamestore.application\\interfaces\\authinterfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A7D59C-544A-4EE2-8E57-CE3C479494EA}|VGameStore.Infrastructure\\VGameStore.Infrastructure.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.infrastructure\\persistence\\identitydb\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A7D59C-544A-4EE2-8E57-CE3C479494EA}|VGameStore.Infrastructure\\VGameStore.Infrastructure.csproj|solutionrelative:vgamestore.infrastructure\\persistence\\identitydb\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A7D59C-544A-4EE2-8E57-CE3C479494EA}|VGameStore.Infrastructure\\VGameStore.Infrastructure.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.infrastructure\\redisservices\\rediscartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A7D59C-544A-4EE2-8E57-CE3C479494EA}|VGameStore.Infrastructure\\VGameStore.Infrastructure.csproj|solutionrelative:vgamestore.infrastructure\\redisservices\\rediscartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A7D59C-544A-4EE2-8E57-CE3C479494EA}|VGameStore.Infrastructure\\VGameStore.Infrastructure.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.infrastructure\\persistence\\identitydb\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A7D59C-544A-4EE2-8E57-CE3C479494EA}|VGameStore.Infrastructure\\VGameStore.Infrastructure.csproj|solutionrelative:vgamestore.infrastructure\\persistence\\identitydb\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.application\\dtos\\identitydtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|solutionrelative:vgamestore.application\\dtos\\identitydtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E78E7DA-B637-4AFC-9A58-26333456053C}|VGameStore.Core\\VGameStore.Core.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.core\\entities\\identity\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E78E7DA-B637-4AFC-9A58-26333456053C}|VGameStore.Core\\VGameStore.Core.csproj|solutionrelative:vgamestore.core\\entities\\identity\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.application\\dtos\\identitydtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|solutionrelative:vgamestore.application\\dtos\\identitydtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.application\\dtos\\identitydtos\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|solutionrelative:vgamestore.application\\dtos\\identitydtos\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.application\\dtos\\identitydtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D921FD1D-B5DD-4B95-9674-57C8C37944BD}|VGameStore.Application\\VGameStore.Application.csproj|solutionrelative:vgamestore.application\\dtos\\identitydtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\Migrations\\VGameStoreIdentityDb\\20251031113713_InitialIdentityMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VGameStore.Infrastructure\\Migrations\\VGameStoreIdentityDb\\20251031113713_InitialIdentityMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E71A83FB-782F-48B2-86C7-B4EC74B66DB1}|VGamesStore.Server\\VGamesStore.Api.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamesstore.server\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E71A83FB-782F-48B2-86C7-B4EC74B66DB1}|VGamesStore.Server\\VGamesStore.Api.csproj|solutionrelative:vgamesstore.server\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A7D59C-544A-4EE2-8E57-CE3C479494EA}|VGameStore.Infrastructure\\VGameStore.Infrastructure.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.infrastructure\\persistence\\gamestoredb\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A7D59C-544A-4EE2-8E57-CE3C479494EA}|VGameStore.Infrastructure\\VGameStore.Infrastructure.csproj|solutionrelative:vgamestore.infrastructure\\persistence\\gamestoredb\\persistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E78E7DA-B637-4AFC-9A58-26333456053C}|VGameStore.Core\\VGameStore.Core.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.core\\specifications\\specificationevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E78E7DA-B637-4AFC-9A58-26333456053C}|VGameStore.Core\\VGameStore.Core.csproj|solutionrelative:vgamestore.core\\specifications\\specificationevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E78E7DA-B637-4AFC-9A58-26333456053C}|VGameStore.Core\\VGameStore.Core.csproj|d:\\vgamesstore\\vgamesstore.server\\vgamestore.core\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E78E7DA-B637-4AFC-9A58-26333456053C}|VGameStore.Core\\VGameStore.Core.csproj|solutionrelative:vgamestore.core\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +135,332 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\Interfaces\\AuthInterfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "VGameStore.Application\\Interfaces\\AuthInterfaces\\ITokenService.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\Interfaces\\AuthInterfaces\\ITokenService.cs",
+              "RelativeToolTip": "VGameStore.Application\\Interfaces\\AuthInterfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAawAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T08:56:04.812Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\Services\\AuthServices\\UserService.cs",
+              "RelativeDocumentMoniker": "VGameStore.Application\\Services\\AuthServices\\UserService.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\Services\\AuthServices\\UserService.cs",
+              "RelativeToolTip": "VGameStore.Application\\Services\\AuthServices\\UserService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwEQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T08:58:00.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "VGamesStore.Server\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "VGamesStore.Server\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T11:03:17.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "VGamesStore.Server\\appsettings.json",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\appsettings.json",
+              "RelativeToolTip": "VGamesStore.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-30T17:29:59.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameStoreDbContext.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\Persistence\\GameStoreDb\\GameStoreDbContext.cs",
+              "RelativeDocumentMoniker": "VGameStore.Infrastructure\\Persistence\\GameStoreDb\\GameStoreDbContext.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\Persistence\\GameStoreDb\\GameStoreDbContext.cs*",
+              "RelativeToolTip": "VGameStore.Infrastructure\\Persistence\\GameStoreDb\\GameStoreDbContext.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T17:35:14.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "VGamesStore.Server\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "VGamesStore.Server\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T11:03:12.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "VGamesStore.Server\\Controllers\\GamesController.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "VGamesStore.Server\\Controllers\\GamesController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T11:04:02.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\Program.cs",
+              "RelativeDocumentMoniker": "VGamesStore.Server\\Program.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\Program.cs",
+              "RelativeToolTip": "VGamesStore.Server\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T17:11:54.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "libman.json",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\libman.json",
+              "RelativeDocumentMoniker": "VGamesStore.Server\\libman.json",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\libman.json",
+              "RelativeToolTip": "VGamesStore.Server\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-31T14:28:15.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\Services\\AuthServices\\TokenService.cs",
+              "RelativeDocumentMoniker": "VGameStore.Application\\Services\\AuthServices\\TokenService.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\Services\\AuthServices\\TokenService.cs",
+              "RelativeToolTip": "VGameStore.Application\\Services\\AuthServices\\TokenService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T08:57:42.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WishlistController.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\Controllers\\WishlistController.cs",
+              "RelativeDocumentMoniker": "VGamesStore.Server\\Controllers\\WishlistController.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\Controllers\\WishlistController.cs",
+              "RelativeToolTip": "VGamesStore.Server\\Controllers\\WishlistController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T14:09:01.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\Interfaces\\AuthInterfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "VGameStore.Application\\Interfaces\\AuthInterfaces\\IUserService.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\Interfaces\\AuthInterfaces\\IUserService.cs",
+              "RelativeToolTip": "VGameStore.Application\\Interfaces\\AuthInterfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T08:56:28.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RedisCartService.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\RedisServices\\RedisCartService.cs",
+              "RelativeDocumentMoniker": "VGameStore.Infrastructure\\RedisServices\\RedisCartService.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\RedisServices\\RedisCartService.cs",
+              "RelativeToolTip": "VGameStore.Infrastructure\\RedisServices\\RedisCartService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T10:42:15.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IdentityDbContext.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\Persistence\\Identitydb\\IdentityDbContext.cs",
+              "RelativeDocumentMoniker": "VGameStore.Infrastructure\\Persistence\\Identitydb\\IdentityDbContext.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\Persistence\\Identitydb\\IdentityDbContext.cs",
+              "RelativeToolTip": "VGameStore.Infrastructure\\Persistence\\Identitydb\\IdentityDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:26:56.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\DTOs\\IdentityDtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "VGameStore.Application\\DTOs\\IdentityDtos\\LoginDto.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\DTOs\\IdentityDtos\\LoginDto.cs",
+              "RelativeToolTip": "VGameStore.Application\\DTOs\\IdentityDtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T08:51:23.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PersistenceServiceRegistration.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\Persistence\\Identitydb\\PersistenceServiceRegistration.cs",
+              "RelativeDocumentMoniker": "VGameStore.Infrastructure\\Persistence\\Identitydb\\PersistenceServiceRegistration.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\Persistence\\Identitydb\\PersistenceServiceRegistration.cs",
+              "RelativeToolTip": "VGameStore.Infrastructure\\Persistence\\Identitydb\\PersistenceServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T17:36:31.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\DTOs\\IdentityDtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "VGameStore.Application\\DTOs\\IdentityDtos\\UserDto.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\DTOs\\IdentityDtos\\UserDto.cs",
+              "RelativeToolTip": "VGameStore.Application\\DTOs\\IdentityDtos\\UserDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T08:51:41.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Core\\Entities\\Identity\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "VGameStore.Core\\Entities\\Identity\\RefreshToken.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Core\\Entities\\Identity\\RefreshToken.cs",
+              "RelativeToolTip": "VGameStore.Core\\Entities\\Identity\\RefreshToken.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T08:38:12.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RefreshTokenDto.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\DTOs\\IdentityDtos\\RefreshTokenDto.cs",
+              "RelativeDocumentMoniker": "VGameStore.Application\\DTOs\\IdentityDtos\\RefreshTokenDto.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\DTOs\\IdentityDtos\\RefreshTokenDto.cs",
+              "RelativeToolTip": "VGameStore.Application\\DTOs\\IdentityDtos\\RefreshTokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T08:52:00.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\DTOs\\IdentityDtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "VGameStore.Application\\DTOs\\IdentityDtos\\RegisterDto.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Application\\DTOs\\IdentityDtos\\RegisterDto.cs",
+              "RelativeToolTip": "VGameStore.Application\\DTOs\\IdentityDtos\\RegisterDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T08:51:07.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20251031113713_InitialIdentityMigration.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\Migrations\\VGameStoreIdentityDb\\20251031113713_InitialIdentityMigration.cs",
+              "RelativeDocumentMoniker": "VGameStore.Infrastructure\\Migrations\\VGameStoreIdentityDb\\20251031113713_InitialIdentityMigration.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\Migrations\\VGameStoreIdentityDb\\20251031113713_InitialIdentityMigration.cs",
+              "RelativeToolTip": "VGameStore.Infrastructure\\Migrations\\VGameStoreIdentityDb\\20251031113713_InitialIdentityMigration.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T11:37:13.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "VGamesStore.Server\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGamesStore.Server\\Controllers\\CartController.cs",
+              "RelativeToolTip": "VGamesStore.Server\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T11:03:24.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SpecificationEvaluator.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Core\\Specifications\\SpecificationEvaluator.cs",
+              "RelativeDocumentMoniker": "VGameStore.Core\\Specifications\\SpecificationEvaluator.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Core\\Specifications\\SpecificationEvaluator.cs",
+              "RelativeToolTip": "VGameStore.Core\\Specifications\\SpecificationEvaluator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T10:54:39.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PersistenceServiceRegistration.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\Persistence\\GameStoreDb\\PersistenceServiceRegistration.cs",
+              "RelativeDocumentMoniker": "VGameStore.Infrastructure\\Persistence\\GameStoreDb\\PersistenceServiceRegistration.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Infrastructure\\Persistence\\GameStoreDb\\PersistenceServiceRegistration.cs",
+              "RelativeToolTip": "VGameStore.Infrastructure\\Persistence\\GameStoreDb\\PersistenceServiceRegistration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T17:35:28.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Core\\Entities\\Identity\\AppUser.cs",
+              "RelativeDocumentMoniker": "VGameStore.Core\\Entities\\Identity\\AppUser.cs",
+              "ToolTip": "D:\\VGamesStore\\VGamesStore.Server\\VGameStore.Core\\Entities\\Identity\\AppUser.cs",
+              "RelativeToolTip": "VGameStore.Core\\Entities\\Identity\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T17:22:20.217Z",
+              "EditorCaption": ""
             }
           ]
         }

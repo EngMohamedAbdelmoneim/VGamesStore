@@ -7,7 +7,7 @@ using VGameStore.Core.Entities;
 
 namespace VGamesStore.Api.Controllers
 {
-	[Authorize]
+	[AllowAnonymous]
 	public class GameController : BaseController
 	{
 		private readonly IGameService _gameService;

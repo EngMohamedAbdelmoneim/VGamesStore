@@ -24,13 +24,16 @@ namespace VGameStore.Application.Services.AuthServices
 		{
 			var claims = new List<Claim>()
 			{
-			new Claim(ClaimTypes.NameIdentifier, user.Id),
+			new Claim(ClaimTypes.Name ,user.FullName),
+			new Claim(ClaimTypes.Sid, user.Id),
 			new Claim(ClaimTypes.Email, user.Email)
-		    };
+			};
+
 			var userRoles = await userManager.GetRolesAsync(user);
 
 			foreach (var role in userRoles)
 				claims.Add(new Claim(ClaimTypes.Role, role));
+
 			var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
 			var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 			var token = new JwtSecurityToken(_config["Jwt:Issuer"],
@@ -44,8 +47,7 @@ namespace VGameStore.Application.Services.AuthServices
 		}
 		public string CreateRefreshToken()
 		{
-			var randomBytes = RandomNumberGenerator.GetBytes(64);
-			return Convert.ToBase64String(randomBytes);
+			return Convert.ToBase64String(RandomNumberGenerator.GetBytes(64));
 		}
 	}
 }

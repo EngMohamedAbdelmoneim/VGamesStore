@@ -61,7 +61,11 @@ builder.Services.AddCors(options =>
 	});
 });
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(
+	options =>
+	{
+		options.Filters.Add( new Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter());
+	});
 
 // Add Persistence Services
 builder.Services.AddPersistenceServices(builder.Configuration);
@@ -151,10 +155,11 @@ app.UseStaticFiles();
 
 app.UseHttpsRedirection();
 
-app.UseCors(MyAllowSpecificOrigins);
+app.UseCors(MyAllowSpecificOrigins);  // ✅ MUST COME BEFORE AUTH
 
-app.UseAuthentication();    
+app.UseAuthentication();              // ✅ Must be before UseAuthorization
 app.UseAuthorization();
 
-app.MapControllers();
+app.MapControllers();                 // ✅ After Auth
+
 app.Run();

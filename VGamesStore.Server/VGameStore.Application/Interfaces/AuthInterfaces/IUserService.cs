@@ -9,9 +9,9 @@ namespace VGameStore.Application.Interfaces.AuthInterfaces
 {
     public interface IUserService
     {
-		Task<string> RegisterAsync(RegisterDto dto);
-		Task<UserDto> LoginAsync(LoginDto dto);
-		Task<bool> LogoutAsync(string userId);
-		Task<string> RefreshTokenAsync(string userId);
+		Task<UserDto> RegisterAsync(RegisterDto model);
+		Task<UserDto> LoginAsync(LoginDto model);
+		Task<UserDto> RefreshTokenAsync(string refreshToken);
+		Task LogoutAsync(string userId);
 	}
 }
